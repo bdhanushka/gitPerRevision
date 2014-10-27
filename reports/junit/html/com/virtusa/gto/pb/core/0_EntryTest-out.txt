@@ -1,6 +1,0 @@
-EMMA: collecting runtime coverage data ...
-foo is not null
-foo is not null
-foo is not null
-Greater than 30
-

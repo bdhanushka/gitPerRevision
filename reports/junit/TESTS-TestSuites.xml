@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
-  <testsuite errors="0" failures="0" hostname="CD-ARPERERA" id="0" name="EntryTest" package="com.virtusa.gto.pb.core" tests="2" time="0.191" timestamp="2014-10-15T09:41:23">
+  <testsuite errors="0" failures="0" hostname="CD-ARPERERA" id="0" name="EntryTest" package="com.virtusa.gto.pb.core" tests="2" time="0.314" timestamp="2014-10-27T12:15:08">
       <properties>
           <property name="java.vendor" value="Sun Microsystems Inc." />
 
-          <property name="lib.dir" value="C:\Projects\Churn\Defect_Compare_ara/lib" />
+          <property name="lib.dir" value="C:\Projects\GIT\Defect_Compare_ara/lib" />
 
           <property name="sun.java.launcher" value="SUN_STANDARD" />
 
@@ -22,19 +22,19 @@
 
           <property name="java.runtime.version" value="1.6.0_23-b05" />
 
-          <property name="test.build.dir" value="C:\Projects\Churn\Defect_Compare_ara/build/test-classes" />
+          <property name="test.build.dir" value="C:\Projects\GIT\Defect_Compare_ara/build/test-classes" />
 
           <property name="user.name" value="arperera" />
 
-          <property name="junit.html.dir" value="C:\Projects\Churn\Defect_Compare_ara/reports/junit/html" />
+          <property name="junit.html.dir" value="C:\Projects\GIT\Defect_Compare_ara/reports/junit/html" />
 
-          <property name="build.dir" value="C:\Projects\Churn\Defect_Compare_ara/build" />
+          <property name="build.dir" value="C:\Projects\GIT\Defect_Compare_ara/build" />
 
           <property name="user.language" value="en" />
 
           <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.6.0_23\jre\bin" />
 
-          <property name="reports.dir" value="C:\Projects\Churn\Defect_Compare_ara/reports" />
+          <property name="reports.dir" value="C:\Projects\GIT\Defect_Compare_ara/reports" />
 
           <property name="ant.project.default-target" value="build-with-test" />
 
@@ -44,7 +44,7 @@
 
           <property name="user.timezone" value="" />
 
-          <property name="ant.file.PhoneBook" value="C:\Projects\Churn\Defect_Compare_ara\build.xml" />
+          <property name="ant.file.PhoneBook" value="C:\Projects\GIT\Defect_Compare_ara\build.xml" />
 
           <property name="sun.arch.data.model" value="64" />
 
@@ -62,9 +62,9 @@
 
           <property name="java.specification.name" value="Java Platform API Specification" />
 
-          <property name="test.lib.dir" value="C:\Projects\Churn\Defect_Compare_ara/testlib" />
+          <property name="test.lib.dir" value="C:\Projects\GIT\Defect_Compare_ara/testlib" />
 
-          <property name="junit.report.dir" value="C:\Projects\Churn\Defect_Compare_ara/reports/junit" />
+          <property name="junit.report.dir" value="C:\Projects\GIT\Defect_Compare_ara/reports/junit" />
 
           <property name="java.class.version" value="50.0" />
 
@@ -72,11 +72,11 @@
 
           <property name="java.home" value="C:\Program Files\Java\jdk1.6.0_23\jre" />
 
-          <property name="dist.dir" value="C:\Projects\Churn\Defect_Compare_ara/dist" />
+          <property name="dist.dir" value="C:\Projects\GIT\Defect_Compare_ara/dist" />
 
           <property name="java.vm.info" value="mixed mode" />
 
-          <property name="ant.file" value="C:\Projects\Churn\Defect_Compare_ara\build.xml" />
+          <property name="ant.file" value="C:\Projects\GIT\Defect_Compare_ara\build.xml" />
 
           <property name="os.version" value="6.1" />
 
@@ -84,7 +84,7 @@
 
           <property name="java.vm.version" value="19.0-b09" />
 
-          <property name="src.build.dir" value="C:\Projects\Churn\Defect_Compare_ara/build/classes" />
+          <property name="src.build.dir" value="C:\Projects\GIT\Defect_Compare_ara/build/classes" />
 
           <property name="user.variant" value="" />
 
@@ -110,13 +110,13 @@
 
           <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
 
-          <property name="java.class.path" value="C:\Projects\Churn\Defect_Compare_ara\build\classes;C:\Projects\Churn\Defect_Compare_ara\build\test-classes;C:\Projects\Churn\Defect_Compare_ara\dist\phonebook.jar;C:\Projects\Churn\Defect_Compare_ara\testlib\emma\emma.jar;C:\Projects\Churn\Defect_Compare_ara\testlib\emma\emma_ant.jar;C:\Projects\Churn\Defect_Compare_ara\testlib\junit\junit.jar;C:\Projects\apache-ant-1.8.2\apache-ant-1.8.2\lib\ant-launcher.jar;C:\Projects\apache-ant-1.8.2\apache-ant-1.8.2\lib\ant.jar;C:\Projects\apache-ant-1.8.2\apache-ant-1.8.2\lib\ant-junit.jar;C:\Projects\apache-ant-1.8.2\apache-ant-1.8.2\lib\ant-junit4.jar" />
+          <property name="java.class.path" value="C:\Projects\GIT\Defect_Compare_ara\build\classes;C:\Projects\GIT\Defect_Compare_ara\build\test-classes;C:\Projects\GIT\Defect_Compare_ara\dist\phonebook.jar;C:\Projects\GIT\Defect_Compare_ara\testlib\emma\emma.jar;C:\Projects\GIT\Defect_Compare_ara\testlib\emma\emma_ant.jar;C:\Projects\GIT\Defect_Compare_ara\testlib\junit\junit.jar;C:\Projects\apache-ant-1.8.2\apache-ant-1.8.2\lib\ant-launcher.jar;C:\Projects\apache-ant-1.8.2\apache-ant-1.8.2\lib\ant.jar;C:\Projects\apache-ant-1.8.2\apache-ant-1.8.2\lib\ant-junit.jar;C:\Projects\apache-ant-1.8.2\apache-ant-1.8.2\lib\ant-junit4.jar" />
 
           <property name="ant.version" value="Apache Ant(TM) version 1.8.2 compiled on December 20 2010" />
 
           <property name="project.name" value="PhoneBook" />
 
-          <property name="emma.html.dir" value="C:\Projects\Churn\Defect_Compare_ara/reports/emma/html" />
+          <property name="emma.html.dir" value="C:\Projects\GIT\Defect_Compare_ara/reports/emma/html" />
 
           <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
 
@@ -138,37 +138,37 @@
 
           <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.6.0_23\jre\lib\ext;C:\Windows\Sun\Java\lib\ext" />
 
-          <property name="user.dir" value="C:\Projects\Churn\Defect_Compare_ara" />
+          <property name="user.dir" value="C:\Projects\GIT\Defect_Compare_ara" />
 
-          <property name="emma.dir" value="C:\Projects\Churn\Defect_Compare_ara/reports/emma" />
+          <property name="emma.dir" value="C:\Projects\GIT\Defect_Compare_ara/reports/emma" />
 
           <property name="line.separator" value="&#xd;&#xa;" />
 
           <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
 
-          <property name="basedir" value="C:\Projects\Churn\Defect_Compare_ara" />
+          <property name="basedir" value="C:\Projects\GIT\Defect_Compare_ara" />
 
           <property name="ant.java.version" value="1.6" />
 
           <property name="ant.core.lib" value="C:\Projects\apache-ant-1.8.2\apache-ant-1.8.2\lib\ant.jar" />
 
-          <property name="jar.name" value="C:\Projects\Churn\Defect_Compare_ara/dist/phonebook.jar" />
+          <property name="jar.name" value="C:\Projects\GIT\Defect_Compare_ara/dist/phonebook.jar" />
 
           <property name="file.encoding" value="Cp1252" />
 
           <property name="java.specification.version" value="1.6" />
 
-          <property name="src.dir" value="C:\Projects\Churn\Defect_Compare_ara/src" />
+          <property name="src.dir" value="C:\Projects\GIT\Defect_Compare_ara/src" />
 
           <property name="ant.project.invoked-targets" value="build-with-test" />
 
-          <property name="emma.classes.dir" value="C:\Projects\Churn\Defect_Compare_ara/reports/emma/classes" />
+          <property name="emma.classes.dir" value="C:\Projects\GIT\Defect_Compare_ara/reports/emma/classes" />
 
       </properties>
 
-      <testcase classname="com.virtusa.gto.pb.core.EntryTest" name="testEqualsEntry" time="0.089" />
+      <testcase classname="com.virtusa.gto.pb.core.EntryTest" name="testEqualsEntry" time="0.105" />
 
-      <testcase classname="com.virtusa.gto.pb.core.EntryTest" name="testCopyPasteMethod1" time="0.0010" />
+      <testcase classname="com.virtusa.gto.pb.core.EntryTest" name="testCopyPasteMethod1" time="0.0020" />
 
       <system-out><![CDATA[EMMA: collecting runtime coverage data ...
 foo is not null
@@ -180,11 +180,11 @@ Less than or equal to 1
       <system-err><![CDATA[]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="CD-ARPERERA" id="1" name="MainTest" package="com.virtusa.gto.pb.core" tests="2" time="0.184" timestamp="2014-10-15T09:41:25">
+  <testsuite errors="0" failures="0" hostname="CD-ARPERERA" id="1" name="MainTest" package="com.virtusa.gto.pb.core" tests="2" time="0.176" timestamp="2014-10-27T12:15:10">
       <properties>
           <property name="java.vendor" value="Sun Microsystems Inc." />
 
-          <property name="lib.dir" value="C:\Projects\Churn\Defect_Compare_ara/lib" />
+          <property name="lib.dir" value="C:\Projects\GIT\Defect_Compare_ara/lib" />
 
           <property name="sun.java.launcher" value="SUN_STANDARD" />
 
@@ -202,19 +202,19 @@ Less than or equal to 1
 
           <property name="java.runtime.version" value="1.6.0_23-b05" />
 
-          <property name="test.build.dir" value="C:\Projects\Churn\Defect_Compare_ara/build/test-classes" />
+          <property name="test.build.dir" value="C:\Projects\GIT\Defect_Compare_ara/build/test-classes" />
 
           <property name="user.name" value="arperera" />
 
-          <property name="junit.html.dir" value="C:\Projects\Churn\Defect_Compare_ara/reports/junit/html" />
+          <property name="junit.html.dir" value="C:\Projects\GIT\Defect_Compare_ara/reports/junit/html" />
 
-          <property name="build.dir" value="C:\Projects\Churn\Defect_Compare_ara/build" />
+          <property name="build.dir" value="C:\Projects\GIT\Defect_Compare_ara/build" />
 
           <property name="user.language" value="en" />
 
           <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.6.0_23\jre\bin" />
 
-          <property name="reports.dir" value="C:\Projects\Churn\Defect_Compare_ara/reports" />
+          <property name="reports.dir" value="C:\Projects\GIT\Defect_Compare_ara/reports" />
 
           <property name="ant.project.default-target" value="build-with-test" />
 
@@ -224,7 +224,7 @@ Less than or equal to 1
 
           <property name="user.timezone" value="" />
 
-          <property name="ant.file.PhoneBook" value="C:\Projects\Churn\Defect_Compare_ara\build.xml" />
+          <property name="ant.file.PhoneBook" value="C:\Projects\GIT\Defect_Compare_ara\build.xml" />
 
           <property name="sun.arch.data.model" value="64" />
 
@@ -242,9 +242,9 @@ Less than or equal to 1
 
           <property name="java.specification.name" value="Java Platform API Specification" />
 
-          <property name="test.lib.dir" value="C:\Projects\Churn\Defect_Compare_ara/testlib" />
+          <property name="test.lib.dir" value="C:\Projects\GIT\Defect_Compare_ara/testlib" />
 
-          <property name="junit.report.dir" value="C:\Projects\Churn\Defect_Compare_ara/reports/junit" />
+          <property name="junit.report.dir" value="C:\Projects\GIT\Defect_Compare_ara/reports/junit" />
 
           <property name="java.class.version" value="50.0" />
 
@@ -252,11 +252,11 @@ Less than or equal to 1
 
           <property name="java.home" value="C:\Program Files\Java\jdk1.6.0_23\jre" />
 
-          <property name="dist.dir" value="C:\Projects\Churn\Defect_Compare_ara/dist" />
+          <property name="dist.dir" value="C:\Projects\GIT\Defect_Compare_ara/dist" />
 
           <property name="java.vm.info" value="mixed mode" />
 
-          <property name="ant.file" value="C:\Projects\Churn\Defect_Compare_ara\build.xml" />
+          <property name="ant.file" value="C:\Projects\GIT\Defect_Compare_ara\build.xml" />
 
           <property name="os.version" value="6.1" />
 
@@ -264,7 +264,7 @@ Less than or equal to 1
 
           <property name="java.vm.version" value="19.0-b09" />
 
-          <property name="src.build.dir" value="C:\Projects\Churn\Defect_Compare_ara/build/classes" />
+          <property name="src.build.dir" value="C:\Projects\GIT\Defect_Compare_ara/build/classes" />
 
           <property name="user.variant" value="" />
 
@@ -290,13 +290,13 @@ Less than or equal to 1
 
           <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
 
-          <property name="java.class.path" value="C:\Projects\Churn\Defect_Compare_ara\build\classes;C:\Projects\Churn\Defect_Compare_ara\build\test-classes;C:\Projects\Churn\Defect_Compare_ara\dist\phonebook.jar;C:\Projects\Churn\Defect_Compare_ara\testlib\emma\emma.jar;C:\Projects\Churn\Defect_Compare_ara\testlib\emma\emma_ant.jar;C:\Projects\Churn\Defect_Compare_ara\testlib\junit\junit.jar;C:\Projects\apache-ant-1.8.2\apache-ant-1.8.2\lib\ant-launcher.jar;C:\Projects\apache-ant-1.8.2\apache-ant-1.8.2\lib\ant.jar;C:\Projects\apache-ant-1.8.2\apache-ant-1.8.2\lib\ant-junit.jar;C:\Projects\apache-ant-1.8.2\apache-ant-1.8.2\lib\ant-junit4.jar" />
+          <property name="java.class.path" value="C:\Projects\GIT\Defect_Compare_ara\build\classes;C:\Projects\GIT\Defect_Compare_ara\build\test-classes;C:\Projects\GIT\Defect_Compare_ara\dist\phonebook.jar;C:\Projects\GIT\Defect_Compare_ara\testlib\emma\emma.jar;C:\Projects\GIT\Defect_Compare_ara\testlib\emma\emma_ant.jar;C:\Projects\GIT\Defect_Compare_ara\testlib\junit\junit.jar;C:\Projects\apache-ant-1.8.2\apache-ant-1.8.2\lib\ant-launcher.jar;C:\Projects\apache-ant-1.8.2\apache-ant-1.8.2\lib\ant.jar;C:\Projects\apache-ant-1.8.2\apache-ant-1.8.2\lib\ant-junit.jar;C:\Projects\apache-ant-1.8.2\apache-ant-1.8.2\lib\ant-junit4.jar" />
 
           <property name="ant.version" value="Apache Ant(TM) version 1.8.2 compiled on December 20 2010" />
 
           <property name="project.name" value="PhoneBook" />
 
-          <property name="emma.html.dir" value="C:\Projects\Churn\Defect_Compare_ara/reports/emma/html" />
+          <property name="emma.html.dir" value="C:\Projects\GIT\Defect_Compare_ara/reports/emma/html" />
 
           <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
 
@@ -318,37 +318,37 @@ Less than or equal to 1
 
           <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.6.0_23\jre\lib\ext;C:\Windows\Sun\Java\lib\ext" />
 
-          <property name="user.dir" value="C:\Projects\Churn\Defect_Compare_ara" />
+          <property name="user.dir" value="C:\Projects\GIT\Defect_Compare_ara" />
 
-          <property name="emma.dir" value="C:\Projects\Churn\Defect_Compare_ara/reports/emma" />
+          <property name="emma.dir" value="C:\Projects\GIT\Defect_Compare_ara/reports/emma" />
 
           <property name="line.separator" value="&#xd;&#xa;" />
 
           <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
 
-          <property name="basedir" value="C:\Projects\Churn\Defect_Compare_ara" />
+          <property name="basedir" value="C:\Projects\GIT\Defect_Compare_ara" />
 
           <property name="ant.java.version" value="1.6" />
 
           <property name="ant.core.lib" value="C:\Projects\apache-ant-1.8.2\apache-ant-1.8.2\lib\ant.jar" />
 
-          <property name="jar.name" value="C:\Projects\Churn\Defect_Compare_ara/dist/phonebook.jar" />
+          <property name="jar.name" value="C:\Projects\GIT\Defect_Compare_ara/dist/phonebook.jar" />
 
           <property name="file.encoding" value="Cp1252" />
 
           <property name="java.specification.version" value="1.6" />
 
-          <property name="src.dir" value="C:\Projects\Churn\Defect_Compare_ara/src" />
+          <property name="src.dir" value="C:\Projects\GIT\Defect_Compare_ara/src" />
 
           <property name="ant.project.invoked-targets" value="build-with-test" />
 
-          <property name="emma.classes.dir" value="C:\Projects\Churn\Defect_Compare_ara/reports/emma/classes" />
+          <property name="emma.classes.dir" value="C:\Projects\GIT\Defect_Compare_ara/reports/emma/classes" />
 
       </properties>
 
-      <testcase classname="com.virtusa.gto.pb.core.MainTest" name="testMain" time="0.083" />
+      <testcase classname="com.virtusa.gto.pb.core.MainTest" name="testMain" time="0.067" />
 
-      <testcase classname="com.virtusa.gto.pb.core.MainTest" name="testCopyPasteMethod1" time="0.0" />
+      <testcase classname="com.virtusa.gto.pb.core.MainTest" name="testCopyPasteMethod1" time="0.0010" />
 
       <system-out><![CDATA[EMMA: collecting runtime coverage data ...
 true
@@ -357,17 +357,17 @@ Omega Silva
 true
 Class Name : class com.virtusa.gto.pb.core.PhoneBook
 Omega Silva
-Greater than 30
+Less than or equal to 1
 ]]></system-out>
 
       <system-err><![CDATA[]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="CD-ARPERERA" id="2" name="PhoneBookTest" package="com.virtusa.gto.pb.core" tests="4" time="0.195" timestamp="2014-10-15T09:41:26">
+  <testsuite errors="0" failures="0" hostname="CD-ARPERERA" id="2" name="PhoneBookTest" package="com.virtusa.gto.pb.core" tests="4" time="0.256" timestamp="2014-10-27T12:15:12">
       <properties>
           <property name="java.vendor" value="Sun Microsystems Inc." />
 
-          <property name="lib.dir" value="C:\Projects\Churn\Defect_Compare_ara/lib" />
+          <property name="lib.dir" value="C:\Projects\GIT\Defect_Compare_ara/lib" />
 
           <property name="sun.java.launcher" value="SUN_STANDARD" />
 
@@ -385,19 +385,19 @@ Greater than 30
 
           <property name="java.runtime.version" value="1.6.0_23-b05" />
 
-          <property name="test.build.dir" value="C:\Projects\Churn\Defect_Compare_ara/build/test-classes" />
+          <property name="test.build.dir" value="C:\Projects\GIT\Defect_Compare_ara/build/test-classes" />
 
           <property name="user.name" value="arperera" />
 
-          <property name="junit.html.dir" value="C:\Projects\Churn\Defect_Compare_ara/reports/junit/html" />
+          <property name="junit.html.dir" value="C:\Projects\GIT\Defect_Compare_ara/reports/junit/html" />
 
-          <property name="build.dir" value="C:\Projects\Churn\Defect_Compare_ara/build" />
+          <property name="build.dir" value="C:\Projects\GIT\Defect_Compare_ara/build" />
 
           <property name="user.language" value="en" />
 
           <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.6.0_23\jre\bin" />
 
-          <property name="reports.dir" value="C:\Projects\Churn\Defect_Compare_ara/reports" />
+          <property name="reports.dir" value="C:\Projects\GIT\Defect_Compare_ara/reports" />
 
           <property name="ant.project.default-target" value="build-with-test" />
 
@@ -407,7 +407,7 @@ Greater than 30
 
           <property name="user.timezone" value="" />
 
-          <property name="ant.file.PhoneBook" value="C:\Projects\Churn\Defect_Compare_ara\build.xml" />
+          <property name="ant.file.PhoneBook" value="C:\Projects\GIT\Defect_Compare_ara\build.xml" />
 
           <property name="sun.arch.data.model" value="64" />
 
@@ -425,9 +425,9 @@ Greater than 30
 
           <property name="java.specification.name" value="Java Platform API Specification" />
 
-          <property name="test.lib.dir" value="C:\Projects\Churn\Defect_Compare_ara/testlib" />
+          <property name="test.lib.dir" value="C:\Projects\GIT\Defect_Compare_ara/testlib" />
 
-          <property name="junit.report.dir" value="C:\Projects\Churn\Defect_Compare_ara/reports/junit" />
+          <property name="junit.report.dir" value="C:\Projects\GIT\Defect_Compare_ara/reports/junit" />
 
           <property name="java.class.version" value="50.0" />
 
@@ -435,11 +435,11 @@ Greater than 30
 
           <property name="java.home" value="C:\Program Files\Java\jdk1.6.0_23\jre" />
 
-          <property name="dist.dir" value="C:\Projects\Churn\Defect_Compare_ara/dist" />
+          <property name="dist.dir" value="C:\Projects\GIT\Defect_Compare_ara/dist" />
 
           <property name="java.vm.info" value="mixed mode" />
 
-          <property name="ant.file" value="C:\Projects\Churn\Defect_Compare_ara\build.xml" />
+          <property name="ant.file" value="C:\Projects\GIT\Defect_Compare_ara\build.xml" />
 
           <property name="os.version" value="6.1" />
 
@@ -447,7 +447,7 @@ Greater than 30
 
           <property name="java.vm.version" value="19.0-b09" />
 
-          <property name="src.build.dir" value="C:\Projects\Churn\Defect_Compare_ara/build/classes" />
+          <property name="src.build.dir" value="C:\Projects\GIT\Defect_Compare_ara/build/classes" />
 
           <property name="user.variant" value="" />
 
@@ -473,13 +473,13 @@ Greater than 30
 
           <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
 
-          <property name="java.class.path" value="C:\Projects\Churn\Defect_Compare_ara\build\classes;C:\Projects\Churn\Defect_Compare_ara\build\test-classes;C:\Projects\Churn\Defect_Compare_ara\dist\phonebook.jar;C:\Projects\Churn\Defect_Compare_ara\testlib\emma\emma.jar;C:\Projects\Churn\Defect_Compare_ara\testlib\emma\emma_ant.jar;C:\Projects\Churn\Defect_Compare_ara\testlib\junit\junit.jar;C:\Projects\apache-ant-1.8.2\apache-ant-1.8.2\lib\ant-launcher.jar;C:\Projects\apache-ant-1.8.2\apache-ant-1.8.2\lib\ant.jar;C:\Projects\apache-ant-1.8.2\apache-ant-1.8.2\lib\ant-junit.jar;C:\Projects\apache-ant-1.8.2\apache-ant-1.8.2\lib\ant-junit4.jar" />
+          <property name="java.class.path" value="C:\Projects\GIT\Defect_Compare_ara\build\classes;C:\Projects\GIT\Defect_Compare_ara\build\test-classes;C:\Projects\GIT\Defect_Compare_ara\dist\phonebook.jar;C:\Projects\GIT\Defect_Compare_ara\testlib\emma\emma.jar;C:\Projects\GIT\Defect_Compare_ara\testlib\emma\emma_ant.jar;C:\Projects\GIT\Defect_Compare_ara\testlib\junit\junit.jar;C:\Projects\apache-ant-1.8.2\apache-ant-1.8.2\lib\ant-launcher.jar;C:\Projects\apache-ant-1.8.2\apache-ant-1.8.2\lib\ant.jar;C:\Projects\apache-ant-1.8.2\apache-ant-1.8.2\lib\ant-junit.jar;C:\Projects\apache-ant-1.8.2\apache-ant-1.8.2\lib\ant-junit4.jar" />
 
           <property name="ant.version" value="Apache Ant(TM) version 1.8.2 compiled on December 20 2010" />
 
           <property name="project.name" value="PhoneBook" />
 
-          <property name="emma.html.dir" value="C:\Projects\Churn\Defect_Compare_ara/reports/emma/html" />
+          <property name="emma.html.dir" value="C:\Projects\GIT\Defect_Compare_ara/reports/emma/html" />
 
           <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
 
@@ -501,39 +501,39 @@ Greater than 30
 
           <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.6.0_23\jre\lib\ext;C:\Windows\Sun\Java\lib\ext" />
 
-          <property name="user.dir" value="C:\Projects\Churn\Defect_Compare_ara" />
+          <property name="user.dir" value="C:\Projects\GIT\Defect_Compare_ara" />
 
-          <property name="emma.dir" value="C:\Projects\Churn\Defect_Compare_ara/reports/emma" />
+          <property name="emma.dir" value="C:\Projects\GIT\Defect_Compare_ara/reports/emma" />
 
           <property name="line.separator" value="&#xd;&#xa;" />
 
           <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
 
-          <property name="basedir" value="C:\Projects\Churn\Defect_Compare_ara" />
+          <property name="basedir" value="C:\Projects\GIT\Defect_Compare_ara" />
 
           <property name="ant.java.version" value="1.6" />
 
           <property name="ant.core.lib" value="C:\Projects\apache-ant-1.8.2\apache-ant-1.8.2\lib\ant.jar" />
 
-          <property name="jar.name" value="C:\Projects\Churn\Defect_Compare_ara/dist/phonebook.jar" />
+          <property name="jar.name" value="C:\Projects\GIT\Defect_Compare_ara/dist/phonebook.jar" />
 
           <property name="file.encoding" value="Cp1252" />
 
           <property name="java.specification.version" value="1.6" />
 
-          <property name="src.dir" value="C:\Projects\Churn\Defect_Compare_ara/src" />
+          <property name="src.dir" value="C:\Projects\GIT\Defect_Compare_ara/src" />
 
           <property name="ant.project.invoked-targets" value="build-with-test" />
 
-          <property name="emma.classes.dir" value="C:\Projects\Churn\Defect_Compare_ara/reports/emma/classes" />
+          <property name="emma.classes.dir" value="C:\Projects\GIT\Defect_Compare_ara/reports/emma/classes" />
 
       </properties>
 
-      <testcase classname="com.virtusa.gto.pb.core.PhoneBookTest" name="testStorePhoneBookEntry" time="0.064" />
+      <testcase classname="com.virtusa.gto.pb.core.PhoneBookTest" name="testStorePhoneBookEntry" time="0.108" />
 
       <testcase classname="com.virtusa.gto.pb.core.PhoneBookTest" name="testIsAllIntegerCharacters" time="0.0080" />
 
-      <testcase classname="com.virtusa.gto.pb.core.PhoneBookTest" name="testIsAllCharacters" time="0.0020" />
+      <testcase classname="com.virtusa.gto.pb.core.PhoneBookTest" name="testIsAllCharacters" time="0.0010" />
 
       <testcase classname="com.virtusa.gto.pb.core.PhoneBookTest" name="testIsValidEmail" time="0.0010" />
 
@@ -543,11 +543,11 @@ Greater than 30
       <system-err><![CDATA[]]></system-err>
 
   </testsuite>
-  <testsuite errors="1" failures="0" hostname="CD-ARPERERA" id="3" name="TestClassTest" package="com.virtusa.gto.pb.core" tests="2" time="0.177" timestamp="2014-10-15T09:41:28">
+  <testsuite errors="1" failures="0" hostname="CD-ARPERERA" id="3" name="TestClassTest" package="com.virtusa.gto.pb.core" tests="2" time="0.206" timestamp="2014-10-27T12:15:14">
       <properties>
           <property name="java.vendor" value="Sun Microsystems Inc." />
 
-          <property name="lib.dir" value="C:\Projects\Churn\Defect_Compare_ara/lib" />
+          <property name="lib.dir" value="C:\Projects\GIT\Defect_Compare_ara/lib" />
 
           <property name="sun.java.launcher" value="SUN_STANDARD" />
 
@@ -565,19 +565,19 @@ Greater than 30
 
           <property name="java.runtime.version" value="1.6.0_23-b05" />
 
-          <property name="test.build.dir" value="C:\Projects\Churn\Defect_Compare_ara/build/test-classes" />
+          <property name="test.build.dir" value="C:\Projects\GIT\Defect_Compare_ara/build/test-classes" />
 
           <property name="user.name" value="arperera" />
 
-          <property name="junit.html.dir" value="C:\Projects\Churn\Defect_Compare_ara/reports/junit/html" />
+          <property name="junit.html.dir" value="C:\Projects\GIT\Defect_Compare_ara/reports/junit/html" />
 
-          <property name="build.dir" value="C:\Projects\Churn\Defect_Compare_ara/build" />
+          <property name="build.dir" value="C:\Projects\GIT\Defect_Compare_ara/build" />
 
           <property name="user.language" value="en" />
 
           <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.6.0_23\jre\bin" />
 
-          <property name="reports.dir" value="C:\Projects\Churn\Defect_Compare_ara/reports" />
+          <property name="reports.dir" value="C:\Projects\GIT\Defect_Compare_ara/reports" />
 
           <property name="ant.project.default-target" value="build-with-test" />
 
@@ -587,7 +587,7 @@ Greater than 30
 
           <property name="user.timezone" value="" />
 
-          <property name="ant.file.PhoneBook" value="C:\Projects\Churn\Defect_Compare_ara\build.xml" />
+          <property name="ant.file.PhoneBook" value="C:\Projects\GIT\Defect_Compare_ara\build.xml" />
 
           <property name="sun.arch.data.model" value="64" />
 
@@ -605,9 +605,9 @@ Greater than 30
 
           <property name="java.specification.name" value="Java Platform API Specification" />
 
-          <property name="test.lib.dir" value="C:\Projects\Churn\Defect_Compare_ara/testlib" />
+          <property name="test.lib.dir" value="C:\Projects\GIT\Defect_Compare_ara/testlib" />
 
-          <property name="junit.report.dir" value="C:\Projects\Churn\Defect_Compare_ara/reports/junit" />
+          <property name="junit.report.dir" value="C:\Projects\GIT\Defect_Compare_ara/reports/junit" />
 
           <property name="java.class.version" value="50.0" />
 
@@ -615,11 +615,11 @@ Greater than 30
 
           <property name="java.home" value="C:\Program Files\Java\jdk1.6.0_23\jre" />
 
-          <property name="dist.dir" value="C:\Projects\Churn\Defect_Compare_ara/dist" />
+          <property name="dist.dir" value="C:\Projects\GIT\Defect_Compare_ara/dist" />
 
           <property name="java.vm.info" value="mixed mode" />
 
-          <property name="ant.file" value="C:\Projects\Churn\Defect_Compare_ara\build.xml" />
+          <property name="ant.file" value="C:\Projects\GIT\Defect_Compare_ara\build.xml" />
 
           <property name="os.version" value="6.1" />
 
@@ -627,7 +627,7 @@ Greater than 30
 
           <property name="java.vm.version" value="19.0-b09" />
 
-          <property name="src.build.dir" value="C:\Projects\Churn\Defect_Compare_ara/build/classes" />
+          <property name="src.build.dir" value="C:\Projects\GIT\Defect_Compare_ara/build/classes" />
 
           <property name="user.variant" value="" />
 
@@ -653,13 +653,13 @@ Greater than 30
 
           <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
 
-          <property name="java.class.path" value="C:\Projects\Churn\Defect_Compare_ara\build\classes;C:\Projects\Churn\Defect_Compare_ara\build\test-classes;C:\Projects\Churn\Defect_Compare_ara\dist\phonebook.jar;C:\Projects\Churn\Defect_Compare_ara\testlib\emma\emma.jar;C:\Projects\Churn\Defect_Compare_ara\testlib\emma\emma_ant.jar;C:\Projects\Churn\Defect_Compare_ara\testlib\junit\junit.jar;C:\Projects\apache-ant-1.8.2\apache-ant-1.8.2\lib\ant-launcher.jar;C:\Projects\apache-ant-1.8.2\apache-ant-1.8.2\lib\ant.jar;C:\Projects\apache-ant-1.8.2\apache-ant-1.8.2\lib\ant-junit.jar;C:\Projects\apache-ant-1.8.2\apache-ant-1.8.2\lib\ant-junit4.jar" />
+          <property name="java.class.path" value="C:\Projects\GIT\Defect_Compare_ara\build\classes;C:\Projects\GIT\Defect_Compare_ara\build\test-classes;C:\Projects\GIT\Defect_Compare_ara\dist\phonebook.jar;C:\Projects\GIT\Defect_Compare_ara\testlib\emma\emma.jar;C:\Projects\GIT\Defect_Compare_ara\testlib\emma\emma_ant.jar;C:\Projects\GIT\Defect_Compare_ara\testlib\junit\junit.jar;C:\Projects\apache-ant-1.8.2\apache-ant-1.8.2\lib\ant-launcher.jar;C:\Projects\apache-ant-1.8.2\apache-ant-1.8.2\lib\ant.jar;C:\Projects\apache-ant-1.8.2\apache-ant-1.8.2\lib\ant-junit.jar;C:\Projects\apache-ant-1.8.2\apache-ant-1.8.2\lib\ant-junit4.jar" />
 
           <property name="ant.version" value="Apache Ant(TM) version 1.8.2 compiled on December 20 2010" />
 
           <property name="project.name" value="PhoneBook" />
 
-          <property name="emma.html.dir" value="C:\Projects\Churn\Defect_Compare_ara/reports/emma/html" />
+          <property name="emma.html.dir" value="C:\Projects\GIT\Defect_Compare_ara/reports/emma/html" />
 
           <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
 
@@ -681,37 +681,37 @@ Greater than 30
 
           <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.6.0_23\jre\lib\ext;C:\Windows\Sun\Java\lib\ext" />
 
-          <property name="user.dir" value="C:\Projects\Churn\Defect_Compare_ara" />
+          <property name="user.dir" value="C:\Projects\GIT\Defect_Compare_ara" />
 
-          <property name="emma.dir" value="C:\Projects\Churn\Defect_Compare_ara/reports/emma" />
+          <property name="emma.dir" value="C:\Projects\GIT\Defect_Compare_ara/reports/emma" />
 
           <property name="line.separator" value="&#xd;&#xa;" />
 
           <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
 
-          <property name="basedir" value="C:\Projects\Churn\Defect_Compare_ara" />
+          <property name="basedir" value="C:\Projects\GIT\Defect_Compare_ara" />
 
           <property name="ant.java.version" value="1.6" />
 
           <property name="ant.core.lib" value="C:\Projects\apache-ant-1.8.2\apache-ant-1.8.2\lib\ant.jar" />
 
-          <property name="jar.name" value="C:\Projects\Churn\Defect_Compare_ara/dist/phonebook.jar" />
+          <property name="jar.name" value="C:\Projects\GIT\Defect_Compare_ara/dist/phonebook.jar" />
 
           <property name="file.encoding" value="Cp1252" />
 
           <property name="java.specification.version" value="1.6" />
 
-          <property name="src.dir" value="C:\Projects\Churn\Defect_Compare_ara/src" />
+          <property name="src.dir" value="C:\Projects\GIT\Defect_Compare_ara/src" />
 
           <property name="ant.project.invoked-targets" value="build-with-test" />
 
-          <property name="emma.classes.dir" value="C:\Projects\Churn\Defect_Compare_ara/reports/emma/classes" />
+          <property name="emma.classes.dir" value="C:\Projects\GIT\Defect_Compare_ara/reports/emma/classes" />
 
       </properties>
 
-      <testcase classname="com.virtusa.gto.pb.core.TestClassTest" name="testTestMethod" time="0.062" />
+      <testcase classname="com.virtusa.gto.pb.core.TestClassTest" name="testTestMethod" time="0.084" />
 
-      <testcase classname="com.virtusa.gto.pb.core.TestClassTest" name="testDoInvalidCast" time="0.011">
+      <testcase classname="com.virtusa.gto.pb.core.TestClassTest" name="testDoInvalidCast" time="0.017">
           <error message="com.virtusa.gto.pb.io.FileWriter cannot be cast to com.virtusa.gto.pb.core.Entry" type="java.lang.ClassCastException">java.lang.ClassCastException: com.virtusa.gto.pb.io.FileWriter cannot be cast to com.virtusa.gto.pb.core.Entry
 	at com.virtusa.gto.pb.core.TestClass.doInvalidCast(TestClass.java:21)
 	at com.virtusa.gto.pb.core.TestClassTest.testDoInvalidCast(TestClassTest.java:18)
@@ -726,11 +726,11 @@ foo is not null
       <system-err><![CDATA[]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="CD-ARPERERA" id="4" name="pBExceptionTest" package="com.virtusa.gto.pb.exceptions" tests="3" time="0.212" timestamp="2014-10-15T09:41:29">
+  <testsuite errors="0" failures="0" hostname="CD-ARPERERA" id="4" name="pBExceptionTest" package="com.virtusa.gto.pb.exceptions" tests="3" time="0.177" timestamp="2014-10-27T12:15:15">
       <properties>
           <property name="java.vendor" value="Sun Microsystems Inc." />
 
-          <property name="lib.dir" value="C:\Projects\Churn\Defect_Compare_ara/lib" />
+          <property name="lib.dir" value="C:\Projects\GIT\Defect_Compare_ara/lib" />
 
           <property name="sun.java.launcher" value="SUN_STANDARD" />
 
@@ -748,19 +748,19 @@ foo is not null
 
           <property name="java.runtime.version" value="1.6.0_23-b05" />
 
-          <property name="test.build.dir" value="C:\Projects\Churn\Defect_Compare_ara/build/test-classes" />
+          <property name="test.build.dir" value="C:\Projects\GIT\Defect_Compare_ara/build/test-classes" />
 
           <property name="user.name" value="arperera" />
 
-          <property name="junit.html.dir" value="C:\Projects\Churn\Defect_Compare_ara/reports/junit/html" />
+          <property name="junit.html.dir" value="C:\Projects\GIT\Defect_Compare_ara/reports/junit/html" />
 
-          <property name="build.dir" value="C:\Projects\Churn\Defect_Compare_ara/build" />
+          <property name="build.dir" value="C:\Projects\GIT\Defect_Compare_ara/build" />
 
           <property name="user.language" value="en" />
 
           <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.6.0_23\jre\bin" />
 
-          <property name="reports.dir" value="C:\Projects\Churn\Defect_Compare_ara/reports" />
+          <property name="reports.dir" value="C:\Projects\GIT\Defect_Compare_ara/reports" />
 
           <property name="ant.project.default-target" value="build-with-test" />
 
@@ -770,7 +770,7 @@ foo is not null
 
           <property name="user.timezone" value="" />
 
-          <property name="ant.file.PhoneBook" value="C:\Projects\Churn\Defect_Compare_ara\build.xml" />
+          <property name="ant.file.PhoneBook" value="C:\Projects\GIT\Defect_Compare_ara\build.xml" />
 
           <property name="sun.arch.data.model" value="64" />
 
@@ -788,9 +788,9 @@ foo is not null
 
           <property name="java.specification.name" value="Java Platform API Specification" />
 
-          <property name="test.lib.dir" value="C:\Projects\Churn\Defect_Compare_ara/testlib" />
+          <property name="test.lib.dir" value="C:\Projects\GIT\Defect_Compare_ara/testlib" />
 
-          <property name="junit.report.dir" value="C:\Projects\Churn\Defect_Compare_ara/reports/junit" />
+          <property name="junit.report.dir" value="C:\Projects\GIT\Defect_Compare_ara/reports/junit" />
 
           <property name="java.class.version" value="50.0" />
 
@@ -798,11 +798,11 @@ foo is not null
 
           <property name="java.home" value="C:\Program Files\Java\jdk1.6.0_23\jre" />
 
-          <property name="dist.dir" value="C:\Projects\Churn\Defect_Compare_ara/dist" />
+          <property name="dist.dir" value="C:\Projects\GIT\Defect_Compare_ara/dist" />
 
           <property name="java.vm.info" value="mixed mode" />
 
-          <property name="ant.file" value="C:\Projects\Churn\Defect_Compare_ara\build.xml" />
+          <property name="ant.file" value="C:\Projects\GIT\Defect_Compare_ara\build.xml" />
 
           <property name="os.version" value="6.1" />
 
@@ -810,7 +810,7 @@ foo is not null
 
           <property name="java.vm.version" value="19.0-b09" />
 
-          <property name="src.build.dir" value="C:\Projects\Churn\Defect_Compare_ara/build/classes" />
+          <property name="src.build.dir" value="C:\Projects\GIT\Defect_Compare_ara/build/classes" />
 
           <property name="user.variant" value="" />
 
@@ -836,13 +836,13 @@ foo is not null
 
           <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
 
-          <property name="java.class.path" value="C:\Projects\Churn\Defect_Compare_ara\build\classes;C:\Projects\Churn\Defect_Compare_ara\build\test-classes;C:\Projects\Churn\Defect_Compare_ara\dist\phonebook.jar;C:\Projects\Churn\Defect_Compare_ara\testlib\emma\emma.jar;C:\Projects\Churn\Defect_Compare_ara\testlib\emma\emma_ant.jar;C:\Projects\Churn\Defect_Compare_ara\testlib\junit\junit.jar;C:\Projects\apache-ant-1.8.2\apache-ant-1.8.2\lib\ant-launcher.jar;C:\Projects\apache-ant-1.8.2\apache-ant-1.8.2\lib\ant.jar;C:\Projects\apache-ant-1.8.2\apache-ant-1.8.2\lib\ant-junit.jar;C:\Projects\apache-ant-1.8.2\apache-ant-1.8.2\lib\ant-junit4.jar" />
+          <property name="java.class.path" value="C:\Projects\GIT\Defect_Compare_ara\build\classes;C:\Projects\GIT\Defect_Compare_ara\build\test-classes;C:\Projects\GIT\Defect_Compare_ara\dist\phonebook.jar;C:\Projects\GIT\Defect_Compare_ara\testlib\emma\emma.jar;C:\Projects\GIT\Defect_Compare_ara\testlib\emma\emma_ant.jar;C:\Projects\GIT\Defect_Compare_ara\testlib\junit\junit.jar;C:\Projects\apache-ant-1.8.2\apache-ant-1.8.2\lib\ant-launcher.jar;C:\Projects\apache-ant-1.8.2\apache-ant-1.8.2\lib\ant.jar;C:\Projects\apache-ant-1.8.2\apache-ant-1.8.2\lib\ant-junit.jar;C:\Projects\apache-ant-1.8.2\apache-ant-1.8.2\lib\ant-junit4.jar" />
 
           <property name="ant.version" value="Apache Ant(TM) version 1.8.2 compiled on December 20 2010" />
 
           <property name="project.name" value="PhoneBook" />
 
-          <property name="emma.html.dir" value="C:\Projects\Churn\Defect_Compare_ara/reports/emma/html" />
+          <property name="emma.html.dir" value="C:\Projects\GIT\Defect_Compare_ara/reports/emma/html" />
 
           <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
 
@@ -864,37 +864,37 @@ foo is not null
 
           <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.6.0_23\jre\lib\ext;C:\Windows\Sun\Java\lib\ext" />
 
-          <property name="user.dir" value="C:\Projects\Churn\Defect_Compare_ara" />
+          <property name="user.dir" value="C:\Projects\GIT\Defect_Compare_ara" />
 
-          <property name="emma.dir" value="C:\Projects\Churn\Defect_Compare_ara/reports/emma" />
+          <property name="emma.dir" value="C:\Projects\GIT\Defect_Compare_ara/reports/emma" />
 
           <property name="line.separator" value="&#xd;&#xa;" />
 
           <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
 
-          <property name="basedir" value="C:\Projects\Churn\Defect_Compare_ara" />
+          <property name="basedir" value="C:\Projects\GIT\Defect_Compare_ara" />
 
           <property name="ant.java.version" value="1.6" />
 
           <property name="ant.core.lib" value="C:\Projects\apache-ant-1.8.2\apache-ant-1.8.2\lib\ant.jar" />
 
-          <property name="jar.name" value="C:\Projects\Churn\Defect_Compare_ara/dist/phonebook.jar" />
+          <property name="jar.name" value="C:\Projects\GIT\Defect_Compare_ara/dist/phonebook.jar" />
 
           <property name="file.encoding" value="Cp1252" />
 
           <property name="java.specification.version" value="1.6" />
 
-          <property name="src.dir" value="C:\Projects\Churn\Defect_Compare_ara/src" />
+          <property name="src.dir" value="C:\Projects\GIT\Defect_Compare_ara/src" />
 
           <property name="ant.project.invoked-targets" value="build-with-test" />
 
-          <property name="emma.classes.dir" value="C:\Projects\Churn\Defect_Compare_ara/reports/emma/classes" />
+          <property name="emma.classes.dir" value="C:\Projects\GIT\Defect_Compare_ara/reports/emma/classes" />
 
       </properties>
 
-      <testcase classname="com.virtusa.gto.pb.exceptions.pBExceptionTest" name="testGetClassName" time="0.075" />
+      <testcase classname="com.virtusa.gto.pb.exceptions.pBExceptionTest" name="testGetClassName" time="0.066" />
 
-      <testcase classname="com.virtusa.gto.pb.exceptions.pBExceptionTest" name="testCopyPasteMethod2" time="0.0010" />
+      <testcase classname="com.virtusa.gto.pb.exceptions.pBExceptionTest" name="testCopyPasteMethod2" time="0.0020" />
 
       <testcase classname="com.virtusa.gto.pb.exceptions.pBExceptionTest" name="testComplexMethod2" time="0.0010" />
 
@@ -955,11 +955,11 @@ Dummy error
 ]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="CD-ARPERERA" id="5" name="FormatterTest" package="com.virtusa.gto.pb.format" tests="3" time="0.219" timestamp="2014-10-15T09:41:30">
+  <testsuite errors="0" failures="0" hostname="CD-ARPERERA" id="5" name="FormatterTest" package="com.virtusa.gto.pb.format" tests="3" time="0.226" timestamp="2014-10-27T12:15:17">
       <properties>
           <property name="java.vendor" value="Sun Microsystems Inc." />
 
-          <property name="lib.dir" value="C:\Projects\Churn\Defect_Compare_ara/lib" />
+          <property name="lib.dir" value="C:\Projects\GIT\Defect_Compare_ara/lib" />
 
           <property name="sun.java.launcher" value="SUN_STANDARD" />
 
@@ -977,19 +977,19 @@ Dummy error
 
           <property name="java.runtime.version" value="1.6.0_23-b05" />
 
-          <property name="test.build.dir" value="C:\Projects\Churn\Defect_Compare_ara/build/test-classes" />
+          <property name="test.build.dir" value="C:\Projects\GIT\Defect_Compare_ara/build/test-classes" />
 
           <property name="user.name" value="arperera" />
 
-          <property name="junit.html.dir" value="C:\Projects\Churn\Defect_Compare_ara/reports/junit/html" />
+          <property name="junit.html.dir" value="C:\Projects\GIT\Defect_Compare_ara/reports/junit/html" />
 
-          <property name="build.dir" value="C:\Projects\Churn\Defect_Compare_ara/build" />
+          <property name="build.dir" value="C:\Projects\GIT\Defect_Compare_ara/build" />
 
           <property name="user.language" value="en" />
 
           <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.6.0_23\jre\bin" />
 
-          <property name="reports.dir" value="C:\Projects\Churn\Defect_Compare_ara/reports" />
+          <property name="reports.dir" value="C:\Projects\GIT\Defect_Compare_ara/reports" />
 
           <property name="ant.project.default-target" value="build-with-test" />
 
@@ -999,7 +999,7 @@ Dummy error
 
           <property name="user.timezone" value="" />
 
-          <property name="ant.file.PhoneBook" value="C:\Projects\Churn\Defect_Compare_ara\build.xml" />
+          <property name="ant.file.PhoneBook" value="C:\Projects\GIT\Defect_Compare_ara\build.xml" />
 
           <property name="sun.arch.data.model" value="64" />
 
@@ -1017,9 +1017,9 @@ Dummy error
 
           <property name="java.specification.name" value="Java Platform API Specification" />
 
-          <property name="test.lib.dir" value="C:\Projects\Churn\Defect_Compare_ara/testlib" />
+          <property name="test.lib.dir" value="C:\Projects\GIT\Defect_Compare_ara/testlib" />
 
-          <property name="junit.report.dir" value="C:\Projects\Churn\Defect_Compare_ara/reports/junit" />
+          <property name="junit.report.dir" value="C:\Projects\GIT\Defect_Compare_ara/reports/junit" />
 
           <property name="java.class.version" value="50.0" />
 
@@ -1027,11 +1027,11 @@ Dummy error
 
           <property name="java.home" value="C:\Program Files\Java\jdk1.6.0_23\jre" />
 
-          <property name="dist.dir" value="C:\Projects\Churn\Defect_Compare_ara/dist" />
+          <property name="dist.dir" value="C:\Projects\GIT\Defect_Compare_ara/dist" />
 
           <property name="java.vm.info" value="mixed mode" />
 
-          <property name="ant.file" value="C:\Projects\Churn\Defect_Compare_ara\build.xml" />
+          <property name="ant.file" value="C:\Projects\GIT\Defect_Compare_ara\build.xml" />
 
           <property name="os.version" value="6.1" />
 
@@ -1039,7 +1039,7 @@ Dummy error
 
           <property name="java.vm.version" value="19.0-b09" />
 
-          <property name="src.build.dir" value="C:\Projects\Churn\Defect_Compare_ara/build/classes" />
+          <property name="src.build.dir" value="C:\Projects\GIT\Defect_Compare_ara/build/classes" />
 
           <property name="user.variant" value="" />
 
@@ -1065,13 +1065,13 @@ Dummy error
 
           <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
 
-          <property name="java.class.path" value="C:\Projects\Churn\Defect_Compare_ara\build\classes;C:\Projects\Churn\Defect_Compare_ara\build\test-classes;C:\Projects\Churn\Defect_Compare_ara\dist\phonebook.jar;C:\Projects\Churn\Defect_Compare_ara\testlib\emma\emma.jar;C:\Projects\Churn\Defect_Compare_ara\testlib\emma\emma_ant.jar;C:\Projects\Churn\Defect_Compare_ara\testlib\junit\junit.jar;C:\Projects\apache-ant-1.8.2\apache-ant-1.8.2\lib\ant-launcher.jar;C:\Projects\apache-ant-1.8.2\apache-ant-1.8.2\lib\ant.jar;C:\Projects\apache-ant-1.8.2\apache-ant-1.8.2\lib\ant-junit.jar;C:\Projects\apache-ant-1.8.2\apache-ant-1.8.2\lib\ant-junit4.jar" />
+          <property name="java.class.path" value="C:\Projects\GIT\Defect_Compare_ara\build\classes;C:\Projects\GIT\Defect_Compare_ara\build\test-classes;C:\Projects\GIT\Defect_Compare_ara\dist\phonebook.jar;C:\Projects\GIT\Defect_Compare_ara\testlib\emma\emma.jar;C:\Projects\GIT\Defect_Compare_ara\testlib\emma\emma_ant.jar;C:\Projects\GIT\Defect_Compare_ara\testlib\junit\junit.jar;C:\Projects\apache-ant-1.8.2\apache-ant-1.8.2\lib\ant-launcher.jar;C:\Projects\apache-ant-1.8.2\apache-ant-1.8.2\lib\ant.jar;C:\Projects\apache-ant-1.8.2\apache-ant-1.8.2\lib\ant-junit.jar;C:\Projects\apache-ant-1.8.2\apache-ant-1.8.2\lib\ant-junit4.jar" />
 
           <property name="ant.version" value="Apache Ant(TM) version 1.8.2 compiled on December 20 2010" />
 
           <property name="project.name" value="PhoneBook" />
 
-          <property name="emma.html.dir" value="C:\Projects\Churn\Defect_Compare_ara/reports/emma/html" />
+          <property name="emma.html.dir" value="C:\Projects\GIT\Defect_Compare_ara/reports/emma/html" />
 
           <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
 
@@ -1093,35 +1093,35 @@ Dummy error
 
           <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.6.0_23\jre\lib\ext;C:\Windows\Sun\Java\lib\ext" />
 
-          <property name="user.dir" value="C:\Projects\Churn\Defect_Compare_ara" />
+          <property name="user.dir" value="C:\Projects\GIT\Defect_Compare_ara" />
 
-          <property name="emma.dir" value="C:\Projects\Churn\Defect_Compare_ara/reports/emma" />
+          <property name="emma.dir" value="C:\Projects\GIT\Defect_Compare_ara/reports/emma" />
 
           <property name="line.separator" value="&#xd;&#xa;" />
 
           <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
 
-          <property name="basedir" value="C:\Projects\Churn\Defect_Compare_ara" />
+          <property name="basedir" value="C:\Projects\GIT\Defect_Compare_ara" />
 
           <property name="ant.java.version" value="1.6" />
 
           <property name="ant.core.lib" value="C:\Projects\apache-ant-1.8.2\apache-ant-1.8.2\lib\ant.jar" />
 
-          <property name="jar.name" value="C:\Projects\Churn\Defect_Compare_ara/dist/phonebook.jar" />
+          <property name="jar.name" value="C:\Projects\GIT\Defect_Compare_ara/dist/phonebook.jar" />
 
           <property name="file.encoding" value="Cp1252" />
 
           <property name="java.specification.version" value="1.6" />
 
-          <property name="src.dir" value="C:\Projects\Churn\Defect_Compare_ara/src" />
+          <property name="src.dir" value="C:\Projects\GIT\Defect_Compare_ara/src" />
 
           <property name="ant.project.invoked-targets" value="build-with-test" />
 
-          <property name="emma.classes.dir" value="C:\Projects\Churn\Defect_Compare_ara/reports/emma/classes" />
+          <property name="emma.classes.dir" value="C:\Projects\GIT\Defect_Compare_ara/reports/emma/classes" />
 
       </properties>
 
-      <testcase classname="com.virtusa.gto.pb.format.FormatterTest" name="testFormatName" time="0.08" />
+      <testcase classname="com.virtusa.gto.pb.format.FormatterTest" name="testFormatName" time="0.104" />
 
       <testcase classname="com.virtusa.gto.pb.format.FormatterTest" name="testValidateEmailInFormatter" time="0.0020" />
 
@@ -1134,11 +1134,11 @@ Less than or equal to 1
       <system-err><![CDATA[]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="CD-ARPERERA" id="6" name="InputsTest" package="com.virtusa.gto.pb.inputs" tests="8" time="0.244" timestamp="2014-10-15T09:41:32">
+  <testsuite errors="0" failures="0" hostname="CD-ARPERERA" id="6" name="InputsTest" package="com.virtusa.gto.pb.inputs" tests="8" time="0.295" timestamp="2014-10-27T12:15:18">
       <properties>
           <property name="java.vendor" value="Sun Microsystems Inc." />
 
-          <property name="lib.dir" value="C:\Projects\Churn\Defect_Compare_ara/lib" />
+          <property name="lib.dir" value="C:\Projects\GIT\Defect_Compare_ara/lib" />
 
           <property name="sun.java.launcher" value="SUN_STANDARD" />
 
@@ -1156,19 +1156,19 @@ Less than or equal to 1
 
           <property name="java.runtime.version" value="1.6.0_23-b05" />
 
-          <property name="test.build.dir" value="C:\Projects\Churn\Defect_Compare_ara/build/test-classes" />
+          <property name="test.build.dir" value="C:\Projects\GIT\Defect_Compare_ara/build/test-classes" />
 
           <property name="user.name" value="arperera" />
 
-          <property name="junit.html.dir" value="C:\Projects\Churn\Defect_Compare_ara/reports/junit/html" />
+          <property name="junit.html.dir" value="C:\Projects\GIT\Defect_Compare_ara/reports/junit/html" />
 
-          <property name="build.dir" value="C:\Projects\Churn\Defect_Compare_ara/build" />
+          <property name="build.dir" value="C:\Projects\GIT\Defect_Compare_ara/build" />
 
           <property name="user.language" value="en" />
 
           <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.6.0_23\jre\bin" />
 
-          <property name="reports.dir" value="C:\Projects\Churn\Defect_Compare_ara/reports" />
+          <property name="reports.dir" value="C:\Projects\GIT\Defect_Compare_ara/reports" />
 
           <property name="ant.project.default-target" value="build-with-test" />
 
@@ -1178,7 +1178,7 @@ Less than or equal to 1
 
           <property name="user.timezone" value="" />
 
-          <property name="ant.file.PhoneBook" value="C:\Projects\Churn\Defect_Compare_ara\build.xml" />
+          <property name="ant.file.PhoneBook" value="C:\Projects\GIT\Defect_Compare_ara\build.xml" />
 
           <property name="sun.arch.data.model" value="64" />
 
@@ -1196,9 +1196,9 @@ Less than or equal to 1
 
           <property name="java.specification.name" value="Java Platform API Specification" />
 
-          <property name="test.lib.dir" value="C:\Projects\Churn\Defect_Compare_ara/testlib" />
+          <property name="test.lib.dir" value="C:\Projects\GIT\Defect_Compare_ara/testlib" />
 
-          <property name="junit.report.dir" value="C:\Projects\Churn\Defect_Compare_ara/reports/junit" />
+          <property name="junit.report.dir" value="C:\Projects\GIT\Defect_Compare_ara/reports/junit" />
 
           <property name="java.class.version" value="50.0" />
 
@@ -1206,11 +1206,11 @@ Less than or equal to 1
 
           <property name="java.home" value="C:\Program Files\Java\jdk1.6.0_23\jre" />
 
-          <property name="dist.dir" value="C:\Projects\Churn\Defect_Compare_ara/dist" />
+          <property name="dist.dir" value="C:\Projects\GIT\Defect_Compare_ara/dist" />
 
           <property name="java.vm.info" value="mixed mode" />
 
-          <property name="ant.file" value="C:\Projects\Churn\Defect_Compare_ara\build.xml" />
+          <property name="ant.file" value="C:\Projects\GIT\Defect_Compare_ara\build.xml" />
 
           <property name="os.version" value="6.1" />
 
@@ -1218,7 +1218,7 @@ Less than or equal to 1
 
           <property name="java.vm.version" value="19.0-b09" />
 
-          <property name="src.build.dir" value="C:\Projects\Churn\Defect_Compare_ara/build/classes" />
+          <property name="src.build.dir" value="C:\Projects\GIT\Defect_Compare_ara/build/classes" />
 
           <property name="user.variant" value="" />
 
@@ -1244,13 +1244,13 @@ Less than or equal to 1
 
           <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
 
-          <property name="java.class.path" value="C:\Projects\Churn\Defect_Compare_ara\build\classes;C:\Projects\Churn\Defect_Compare_ara\build\test-classes;C:\Projects\Churn\Defect_Compare_ara\dist\phonebook.jar;C:\Projects\Churn\Defect_Compare_ara\testlib\emma\emma.jar;C:\Projects\Churn\Defect_Compare_ara\testlib\emma\emma_ant.jar;C:\Projects\Churn\Defect_Compare_ara\testlib\junit\junit.jar;C:\Projects\apache-ant-1.8.2\apache-ant-1.8.2\lib\ant-launcher.jar;C:\Projects\apache-ant-1.8.2\apache-ant-1.8.2\lib\ant.jar;C:\Projects\apache-ant-1.8.2\apache-ant-1.8.2\lib\ant-junit.jar;C:\Projects\apache-ant-1.8.2\apache-ant-1.8.2\lib\ant-junit4.jar" />
+          <property name="java.class.path" value="C:\Projects\GIT\Defect_Compare_ara\build\classes;C:\Projects\GIT\Defect_Compare_ara\build\test-classes;C:\Projects\GIT\Defect_Compare_ara\dist\phonebook.jar;C:\Projects\GIT\Defect_Compare_ara\testlib\emma\emma.jar;C:\Projects\GIT\Defect_Compare_ara\testlib\emma\emma_ant.jar;C:\Projects\GIT\Defect_Compare_ara\testlib\junit\junit.jar;C:\Projects\apache-ant-1.8.2\apache-ant-1.8.2\lib\ant-launcher.jar;C:\Projects\apache-ant-1.8.2\apache-ant-1.8.2\lib\ant.jar;C:\Projects\apache-ant-1.8.2\apache-ant-1.8.2\lib\ant-junit.jar;C:\Projects\apache-ant-1.8.2\apache-ant-1.8.2\lib\ant-junit4.jar" />
 
           <property name="ant.version" value="Apache Ant(TM) version 1.8.2 compiled on December 20 2010" />
 
           <property name="project.name" value="PhoneBook" />
 
-          <property name="emma.html.dir" value="C:\Projects\Churn\Defect_Compare_ara/reports/emma/html" />
+          <property name="emma.html.dir" value="C:\Projects\GIT\Defect_Compare_ara/reports/emma/html" />
 
           <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
 
@@ -1272,35 +1272,35 @@ Less than or equal to 1
 
           <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.6.0_23\jre\lib\ext;C:\Windows\Sun\Java\lib\ext" />
 
-          <property name="user.dir" value="C:\Projects\Churn\Defect_Compare_ara" />
+          <property name="user.dir" value="C:\Projects\GIT\Defect_Compare_ara" />
 
-          <property name="emma.dir" value="C:\Projects\Churn\Defect_Compare_ara/reports/emma" />
+          <property name="emma.dir" value="C:\Projects\GIT\Defect_Compare_ara/reports/emma" />
 
           <property name="line.separator" value="&#xd;&#xa;" />
 
           <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
 
-          <property name="basedir" value="C:\Projects\Churn\Defect_Compare_ara" />
+          <property name="basedir" value="C:\Projects\GIT\Defect_Compare_ara" />
 
           <property name="ant.java.version" value="1.6" />
 
           <property name="ant.core.lib" value="C:\Projects\apache-ant-1.8.2\apache-ant-1.8.2\lib\ant.jar" />
 
-          <property name="jar.name" value="C:\Projects\Churn\Defect_Compare_ara/dist/phonebook.jar" />
+          <property name="jar.name" value="C:\Projects\GIT\Defect_Compare_ara/dist/phonebook.jar" />
 
           <property name="file.encoding" value="Cp1252" />
 
           <property name="java.specification.version" value="1.6" />
 
-          <property name="src.dir" value="C:\Projects\Churn\Defect_Compare_ara/src" />
+          <property name="src.dir" value="C:\Projects\GIT\Defect_Compare_ara/src" />
 
           <property name="ant.project.invoked-targets" value="build-with-test" />
 
-          <property name="emma.classes.dir" value="C:\Projects\Churn\Defect_Compare_ara/reports/emma/classes" />
+          <property name="emma.classes.dir" value="C:\Projects\GIT\Defect_Compare_ara/reports/emma/classes" />
 
       </properties>
 
-      <testcase classname="com.virtusa.gto.pb.inputs.InputsTest" name="testToString" time="0.099" />
+      <testcase classname="com.virtusa.gto.pb.inputs.InputsTest" name="testToString" time="0.147" />
 
       <testcase classname="com.virtusa.gto.pb.inputs.InputsTest" name="testValidateEmailInInputs" time="0.0060" />
 
@@ -1331,11 +1331,11 @@ Dummy error
 ]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="CD-ARPERERA" id="7" name="FileReaderTest" package="com.virtusa.gto.pb.io" tests="3" time="0.173" timestamp="2014-10-15T09:41:34">
+  <testsuite errors="0" failures="0" hostname="CD-ARPERERA" id="7" name="FileReaderTest" package="com.virtusa.gto.pb.io" tests="3" time="0.178" timestamp="2014-10-27T12:15:20">
       <properties>
           <property name="java.vendor" value="Sun Microsystems Inc." />
 
-          <property name="lib.dir" value="C:\Projects\Churn\Defect_Compare_ara/lib" />
+          <property name="lib.dir" value="C:\Projects\GIT\Defect_Compare_ara/lib" />
 
           <property name="sun.java.launcher" value="SUN_STANDARD" />
 
@@ -1353,19 +1353,19 @@ Dummy error
 
           <property name="java.runtime.version" value="1.6.0_23-b05" />
 
-          <property name="test.build.dir" value="C:\Projects\Churn\Defect_Compare_ara/build/test-classes" />
+          <property name="test.build.dir" value="C:\Projects\GIT\Defect_Compare_ara/build/test-classes" />
 
           <property name="user.name" value="arperera" />
 
-          <property name="junit.html.dir" value="C:\Projects\Churn\Defect_Compare_ara/reports/junit/html" />
+          <property name="junit.html.dir" value="C:\Projects\GIT\Defect_Compare_ara/reports/junit/html" />
 
-          <property name="build.dir" value="C:\Projects\Churn\Defect_Compare_ara/build" />
+          <property name="build.dir" value="C:\Projects\GIT\Defect_Compare_ara/build" />
 
           <property name="user.language" value="en" />
 
           <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.6.0_23\jre\bin" />
 
-          <property name="reports.dir" value="C:\Projects\Churn\Defect_Compare_ara/reports" />
+          <property name="reports.dir" value="C:\Projects\GIT\Defect_Compare_ara/reports" />
 
           <property name="ant.project.default-target" value="build-with-test" />
 
@@ -1375,7 +1375,7 @@ Dummy error
 
           <property name="user.timezone" value="" />
 
-          <property name="ant.file.PhoneBook" value="C:\Projects\Churn\Defect_Compare_ara\build.xml" />
+          <property name="ant.file.PhoneBook" value="C:\Projects\GIT\Defect_Compare_ara\build.xml" />
 
           <property name="sun.arch.data.model" value="64" />
 
@@ -1393,9 +1393,9 @@ Dummy error
 
           <property name="java.specification.name" value="Java Platform API Specification" />
 
-          <property name="test.lib.dir" value="C:\Projects\Churn\Defect_Compare_ara/testlib" />
+          <property name="test.lib.dir" value="C:\Projects\GIT\Defect_Compare_ara/testlib" />
 
-          <property name="junit.report.dir" value="C:\Projects\Churn\Defect_Compare_ara/reports/junit" />
+          <property name="junit.report.dir" value="C:\Projects\GIT\Defect_Compare_ara/reports/junit" />
 
           <property name="java.class.version" value="50.0" />
 
@@ -1403,11 +1403,11 @@ Dummy error
 
           <property name="java.home" value="C:\Program Files\Java\jdk1.6.0_23\jre" />
 
-          <property name="dist.dir" value="C:\Projects\Churn\Defect_Compare_ara/dist" />
+          <property name="dist.dir" value="C:\Projects\GIT\Defect_Compare_ara/dist" />
 
           <property name="java.vm.info" value="mixed mode" />
 
-          <property name="ant.file" value="C:\Projects\Churn\Defect_Compare_ara\build.xml" />
+          <property name="ant.file" value="C:\Projects\GIT\Defect_Compare_ara\build.xml" />
 
           <property name="os.version" value="6.1" />
 
@@ -1415,7 +1415,7 @@ Dummy error
 
           <property name="java.vm.version" value="19.0-b09" />
 
-          <property name="src.build.dir" value="C:\Projects\Churn\Defect_Compare_ara/build/classes" />
+          <property name="src.build.dir" value="C:\Projects\GIT\Defect_Compare_ara/build/classes" />
 
           <property name="user.variant" value="" />
 
@@ -1441,13 +1441,13 @@ Dummy error
 
           <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
 
-          <property name="java.class.path" value="C:\Projects\Churn\Defect_Compare_ara\build\classes;C:\Projects\Churn\Defect_Compare_ara\build\test-classes;C:\Projects\Churn\Defect_Compare_ara\dist\phonebook.jar;C:\Projects\Churn\Defect_Compare_ara\testlib\emma\emma.jar;C:\Projects\Churn\Defect_Compare_ara\testlib\emma\emma_ant.jar;C:\Projects\Churn\Defect_Compare_ara\testlib\junit\junit.jar;C:\Projects\apache-ant-1.8.2\apache-ant-1.8.2\lib\ant-launcher.jar;C:\Projects\apache-ant-1.8.2\apache-ant-1.8.2\lib\ant.jar;C:\Projects\apache-ant-1.8.2\apache-ant-1.8.2\lib\ant-junit.jar;C:\Projects\apache-ant-1.8.2\apache-ant-1.8.2\lib\ant-junit4.jar" />
+          <property name="java.class.path" value="C:\Projects\GIT\Defect_Compare_ara\build\classes;C:\Projects\GIT\Defect_Compare_ara\build\test-classes;C:\Projects\GIT\Defect_Compare_ara\dist\phonebook.jar;C:\Projects\GIT\Defect_Compare_ara\testlib\emma\emma.jar;C:\Projects\GIT\Defect_Compare_ara\testlib\emma\emma_ant.jar;C:\Projects\GIT\Defect_Compare_ara\testlib\junit\junit.jar;C:\Projects\apache-ant-1.8.2\apache-ant-1.8.2\lib\ant-launcher.jar;C:\Projects\apache-ant-1.8.2\apache-ant-1.8.2\lib\ant.jar;C:\Projects\apache-ant-1.8.2\apache-ant-1.8.2\lib\ant-junit.jar;C:\Projects\apache-ant-1.8.2\apache-ant-1.8.2\lib\ant-junit4.jar" />
 
           <property name="ant.version" value="Apache Ant(TM) version 1.8.2 compiled on December 20 2010" />
 
           <property name="project.name" value="PhoneBook" />
 
-          <property name="emma.html.dir" value="C:\Projects\Churn\Defect_Compare_ara/reports/emma/html" />
+          <property name="emma.html.dir" value="C:\Projects\GIT\Defect_Compare_ara/reports/emma/html" />
 
           <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
 
@@ -1469,39 +1469,39 @@ Dummy error
 
           <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.6.0_23\jre\lib\ext;C:\Windows\Sun\Java\lib\ext" />
 
-          <property name="user.dir" value="C:\Projects\Churn\Defect_Compare_ara" />
+          <property name="user.dir" value="C:\Projects\GIT\Defect_Compare_ara" />
 
-          <property name="emma.dir" value="C:\Projects\Churn\Defect_Compare_ara/reports/emma" />
+          <property name="emma.dir" value="C:\Projects\GIT\Defect_Compare_ara/reports/emma" />
 
           <property name="line.separator" value="&#xd;&#xa;" />
 
           <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
 
-          <property name="basedir" value="C:\Projects\Churn\Defect_Compare_ara" />
+          <property name="basedir" value="C:\Projects\GIT\Defect_Compare_ara" />
 
           <property name="ant.java.version" value="1.6" />
 
           <property name="ant.core.lib" value="C:\Projects\apache-ant-1.8.2\apache-ant-1.8.2\lib\ant.jar" />
 
-          <property name="jar.name" value="C:\Projects\Churn\Defect_Compare_ara/dist/phonebook.jar" />
+          <property name="jar.name" value="C:\Projects\GIT\Defect_Compare_ara/dist/phonebook.jar" />
 
           <property name="file.encoding" value="Cp1252" />
 
           <property name="java.specification.version" value="1.6" />
 
-          <property name="src.dir" value="C:\Projects\Churn\Defect_Compare_ara/src" />
+          <property name="src.dir" value="C:\Projects\GIT\Defect_Compare_ara/src" />
 
           <property name="ant.project.invoked-targets" value="build-with-test" />
 
-          <property name="emma.classes.dir" value="C:\Projects\Churn\Defect_Compare_ara/reports/emma/classes" />
+          <property name="emma.classes.dir" value="C:\Projects\GIT\Defect_Compare_ara/reports/emma/classes" />
 
       </properties>
 
-      <testcase classname="com.virtusa.gto.pb.io.FileReaderTest" name="testFileReader" time="0.059" />
+      <testcase classname="com.virtusa.gto.pb.io.FileReaderTest" name="testFileReader" time="0.06" />
 
       <testcase classname="com.virtusa.gto.pb.io.FileReaderTest" name="testCreateFileInputStreamForFun" time="0.0020" />
 
-      <testcase classname="com.virtusa.gto.pb.io.FileReaderTest" name="testCopyPasteMethod2" time="0.0010" />
+      <testcase classname="com.virtusa.gto.pb.io.FileReaderTest" name="testCopyPasteMethod2" time="0.0020" />
 
       <system-out><![CDATA[EMMA: collecting runtime coverage data ...
 FileInputStream is Null
@@ -1524,11 +1524,11 @@ Dummy error
 ]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="CD-ARPERERA" id="8" name="ValidatorTest" package="com.virtusa.gto.pb.validate" tests="4" time="0.216" timestamp="2014-10-15T09:41:35">
+  <testsuite errors="0" failures="0" hostname="CD-ARPERERA" id="8" name="ValidatorTest" package="com.virtusa.gto.pb.validate" tests="5" time="0.23" timestamp="2014-10-27T12:15:22">
       <properties>
           <property name="java.vendor" value="Sun Microsystems Inc." />
 
-          <property name="lib.dir" value="C:\Projects\Churn\Defect_Compare_ara/lib" />
+          <property name="lib.dir" value="C:\Projects\GIT\Defect_Compare_ara/lib" />
 
           <property name="sun.java.launcher" value="SUN_STANDARD" />
 
@@ -1546,19 +1546,19 @@ Dummy error
 
           <property name="java.runtime.version" value="1.6.0_23-b05" />
 
-          <property name="test.build.dir" value="C:\Projects\Churn\Defect_Compare_ara/build/test-classes" />
+          <property name="test.build.dir" value="C:\Projects\GIT\Defect_Compare_ara/build/test-classes" />
 
           <property name="user.name" value="arperera" />
 
-          <property name="junit.html.dir" value="C:\Projects\Churn\Defect_Compare_ara/reports/junit/html" />
+          <property name="junit.html.dir" value="C:\Projects\GIT\Defect_Compare_ara/reports/junit/html" />
 
-          <property name="build.dir" value="C:\Projects\Churn\Defect_Compare_ara/build" />
+          <property name="build.dir" value="C:\Projects\GIT\Defect_Compare_ara/build" />
 
           <property name="user.language" value="en" />
 
           <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.6.0_23\jre\bin" />
 
-          <property name="reports.dir" value="C:\Projects\Churn\Defect_Compare_ara/reports" />
+          <property name="reports.dir" value="C:\Projects\GIT\Defect_Compare_ara/reports" />
 
           <property name="ant.project.default-target" value="build-with-test" />
 
@@ -1568,7 +1568,7 @@ Dummy error
 
           <property name="user.timezone" value="" />
 
-          <property name="ant.file.PhoneBook" value="C:\Projects\Churn\Defect_Compare_ara\build.xml" />
+          <property name="ant.file.PhoneBook" value="C:\Projects\GIT\Defect_Compare_ara\build.xml" />
 
           <property name="sun.arch.data.model" value="64" />
 
@@ -1586,9 +1586,9 @@ Dummy error
 
           <property name="java.specification.name" value="Java Platform API Specification" />
 
-          <property name="test.lib.dir" value="C:\Projects\Churn\Defect_Compare_ara/testlib" />
+          <property name="test.lib.dir" value="C:\Projects\GIT\Defect_Compare_ara/testlib" />
 
-          <property name="junit.report.dir" value="C:\Projects\Churn\Defect_Compare_ara/reports/junit" />
+          <property name="junit.report.dir" value="C:\Projects\GIT\Defect_Compare_ara/reports/junit" />
 
           <property name="java.class.version" value="50.0" />
 
@@ -1596,11 +1596,11 @@ Dummy error
 
           <property name="java.home" value="C:\Program Files\Java\jdk1.6.0_23\jre" />
 
-          <property name="dist.dir" value="C:\Projects\Churn\Defect_Compare_ara/dist" />
+          <property name="dist.dir" value="C:\Projects\GIT\Defect_Compare_ara/dist" />
 
           <property name="java.vm.info" value="mixed mode" />
 
-          <property name="ant.file" value="C:\Projects\Churn\Defect_Compare_ara\build.xml" />
+          <property name="ant.file" value="C:\Projects\GIT\Defect_Compare_ara\build.xml" />
 
           <property name="os.version" value="6.1" />
 
@@ -1608,7 +1608,7 @@ Dummy error
 
           <property name="java.vm.version" value="19.0-b09" />
 
-          <property name="src.build.dir" value="C:\Projects\Churn\Defect_Compare_ara/build/classes" />
+          <property name="src.build.dir" value="C:\Projects\GIT\Defect_Compare_ara/build/classes" />
 
           <property name="user.variant" value="" />
 
@@ -1634,13 +1634,13 @@ Dummy error
 
           <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
 
-          <property name="java.class.path" value="C:\Projects\Churn\Defect_Compare_ara\build\classes;C:\Projects\Churn\Defect_Compare_ara\build\test-classes;C:\Projects\Churn\Defect_Compare_ara\dist\phonebook.jar;C:\Projects\Churn\Defect_Compare_ara\testlib\emma\emma.jar;C:\Projects\Churn\Defect_Compare_ara\testlib\emma\emma_ant.jar;C:\Projects\Churn\Defect_Compare_ara\testlib\junit\junit.jar;C:\Projects\apache-ant-1.8.2\apache-ant-1.8.2\lib\ant-launcher.jar;C:\Projects\apache-ant-1.8.2\apache-ant-1.8.2\lib\ant.jar;C:\Projects\apache-ant-1.8.2\apache-ant-1.8.2\lib\ant-junit.jar;C:\Projects\apache-ant-1.8.2\apache-ant-1.8.2\lib\ant-junit4.jar" />
+          <property name="java.class.path" value="C:\Projects\GIT\Defect_Compare_ara\build\classes;C:\Projects\GIT\Defect_Compare_ara\build\test-classes;C:\Projects\GIT\Defect_Compare_ara\dist\phonebook.jar;C:\Projects\GIT\Defect_Compare_ara\testlib\emma\emma.jar;C:\Projects\GIT\Defect_Compare_ara\testlib\emma\emma_ant.jar;C:\Projects\GIT\Defect_Compare_ara\testlib\junit\junit.jar;C:\Projects\apache-ant-1.8.2\apache-ant-1.8.2\lib\ant-launcher.jar;C:\Projects\apache-ant-1.8.2\apache-ant-1.8.2\lib\ant.jar;C:\Projects\apache-ant-1.8.2\apache-ant-1.8.2\lib\ant-junit.jar;C:\Projects\apache-ant-1.8.2\apache-ant-1.8.2\lib\ant-junit4.jar" />
 
           <property name="ant.version" value="Apache Ant(TM) version 1.8.2 compiled on December 20 2010" />
 
           <property name="project.name" value="PhoneBook" />
 
-          <property name="emma.html.dir" value="C:\Projects\Churn\Defect_Compare_ara/reports/emma/html" />
+          <property name="emma.html.dir" value="C:\Projects\GIT\Defect_Compare_ara/reports/emma/html" />
 
           <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
 
@@ -1662,41 +1662,43 @@ Dummy error
 
           <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.6.0_23\jre\lib\ext;C:\Windows\Sun\Java\lib\ext" />
 
-          <property name="user.dir" value="C:\Projects\Churn\Defect_Compare_ara" />
+          <property name="user.dir" value="C:\Projects\GIT\Defect_Compare_ara" />
 
-          <property name="emma.dir" value="C:\Projects\Churn\Defect_Compare_ara/reports/emma" />
+          <property name="emma.dir" value="C:\Projects\GIT\Defect_Compare_ara/reports/emma" />
 
           <property name="line.separator" value="&#xd;&#xa;" />
 
           <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
 
-          <property name="basedir" value="C:\Projects\Churn\Defect_Compare_ara" />
+          <property name="basedir" value="C:\Projects\GIT\Defect_Compare_ara" />
 
           <property name="ant.java.version" value="1.6" />
 
           <property name="ant.core.lib" value="C:\Projects\apache-ant-1.8.2\apache-ant-1.8.2\lib\ant.jar" />
 
-          <property name="jar.name" value="C:\Projects\Churn\Defect_Compare_ara/dist/phonebook.jar" />
+          <property name="jar.name" value="C:\Projects\GIT\Defect_Compare_ara/dist/phonebook.jar" />
 
           <property name="file.encoding" value="Cp1252" />
 
           <property name="java.specification.version" value="1.6" />
 
-          <property name="src.dir" value="C:\Projects\Churn\Defect_Compare_ara/src" />
+          <property name="src.dir" value="C:\Projects\GIT\Defect_Compare_ara/src" />
 
           <property name="ant.project.invoked-targets" value="build-with-test" />
 
-          <property name="emma.classes.dir" value="C:\Projects\Churn\Defect_Compare_ara/reports/emma/classes" />
+          <property name="emma.classes.dir" value="C:\Projects\GIT\Defect_Compare_ara/reports/emma/classes" />
 
       </properties>
 
-      <testcase classname="com.virtusa.gto.pb.validate.ValidatorTest" name="testValidatePhoneNumber" time="0.078" />
+      <testcase classname="com.virtusa.gto.pb.validate.ValidatorTest" name="testValidatePhoneNumber" time="0.098" />
 
-      <testcase classname="com.virtusa.gto.pb.validate.ValidatorTest" name="testValidateEntryName" time="0.0030" />
+      <testcase classname="com.virtusa.gto.pb.validate.ValidatorTest" name="testValidateEntryName" time="0.0040" />
 
-      <testcase classname="com.virtusa.gto.pb.validate.ValidatorTest" name="testCopyPasteMethod2" time="0.0010" />
+      <testcase classname="com.virtusa.gto.pb.validate.ValidatorTest" name="testCopyPasteMethod2" time="0.0020" />
 
-      <testcase classname="com.virtusa.gto.pb.validate.ValidatorTest" name="testCopyPasteMethod3" time="0.0010" />
+      <testcase classname="com.virtusa.gto.pb.validate.ValidatorTest" name="testCopyPasteMethod4" time="0.0020" />
+
+      <testcase classname="com.virtusa.gto.pb.validate.ValidatorTest" name="testCopyPasteMethod3" time="0.0020" />
 
       <system-out><![CDATA[EMMA: collecting runtime coverage data ...
 Number : 1
@@ -1711,11 +1713,17 @@ Number : 1
 Case 1
 Number : 2
 Case 2
+Number : 1
+Case 1
+Number : 2
+Case 2
 Number : 3
 Case 3
 ]]></system-out>
 
       <system-err><![CDATA[Dummy error
+Dummy error
+Dummy error
 Dummy error
 Dummy error
 Dummy error

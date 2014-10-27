@@ -1,19 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.0.5312 report, generated Wed Oct 15 15:11:37 IST 2014 -->
+<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.0.5312 report, generated Mon Oct 27 17:45:24 IST 2014 -->
 
 <report>
   <stats>
     <packages value="10"/>
     <classes value="22"/>
-    <methods value="96"/>
+    <methods value="97"/>
     <srcfiles value="19"/>
-    <srclines value="625"/>
+    <srclines value="636"/>
   </stats>
   <data>
     <all name="all classes">
       <coverage type="class, %" value="50%  (11/22)"/>
-      <coverage type="method, %" value="49%  (47/96)"/>
-      <coverage type="block, %" value="38%  (744/1945)"/>
-      <coverage type="line, %" value="35%  (216/625)"/>
+      <coverage type="method, %" value="49%  (48/97)"/>
+      <coverage type="block, %" value="39%  (769/1977)"/>
+      <coverage type="line, %" value="35%  (224/636)"/>
 
       <package name="com.virtusa.gto.ara.box">
         <coverage type="class, %" value="0%   (0/2)"/>
@@ -803,22 +803,27 @@
       </package>
       <package name="com.virtusa.gto.pb.validate">
         <coverage type="class, %" value="100% (1/1)"/>
-        <coverage type="method, %" value="100% (6/6)"/>
-        <coverage type="block, %" value="92%  (124/135)"/>
-        <coverage type="line, %" value="90%  (37/41)"/>
+        <coverage type="method, %" value="100% (7/7)"/>
+        <coverage type="block, %" value="89%  (149/167)"/>
+        <coverage type="line, %" value="87%  (45/52)"/>
 
         <srcfile name="Validator.java">
           <coverage type="class, %" value="100% (1/1)"/>
-          <coverage type="method, %" value="100% (6/6)"/>
-          <coverage type="block, %" value="92%  (124/135)"/>
-          <coverage type="line, %" value="90%  (37/41)"/>
+          <coverage type="method, %" value="100% (7/7)"/>
+          <coverage type="block, %" value="89%  (149/167)"/>
+          <coverage type="line, %" value="87%  (45/52)"/>
 
           <class name="Validator">
             <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="100% (6/6)"/>
-            <coverage type="block, %" value="92%  (124/135)"/>
-            <coverage type="line, %" value="90%  (37/41)"/>
+            <coverage type="method, %" value="100% (7/7)"/>
+            <coverage type="block, %" value="89%  (149/167)"/>
+            <coverage type="line, %" value="87%  (45/52)"/>
 
+            <method name="copyPasteMethod4 (int): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="78%  (25/32)"/>
+              <coverage type="line, %" value="73%  (8/11)"/>
+            </method>
             <method name="validatePhoneNumber (String): boolean">
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="82%  (36/44)"/>
