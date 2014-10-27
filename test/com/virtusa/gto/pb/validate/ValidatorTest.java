@@ -67,6 +67,13 @@ public class ValidatorTest {
     }
     
     @Test
+    public void testCopyPasteMethod4() {
+        validator.copyPasteMethod4(1);
+        validator.copyPasteMethod4(2);
+       
+    }
+    
+    @Test
     public void testCopyPasteMethod3() {
         validator.copyPasteMethod3(1);
         validator.copyPasteMethod3(2);
