@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="emma">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/testlib/emma.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

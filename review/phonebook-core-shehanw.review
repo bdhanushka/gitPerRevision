@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Review id="phonebook-core">
+  <ReviewIssue id="GQ0G94QR">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2011-07-12 :: 11:27:46:179 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2011-07-12 :: 11:28:32:482 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>shehanw</ReviewerId>
+    <AssignedTo>shehanw</AssignedTo>
+    <File line="48">src/com/virtusa/gto/pb/core/PhoneBook.java</File>
+    <Type>item.type.label.codingStandards</Type>
+    <Severity>item.severity.label.normal</Severity>
+    <Summary>System.err.Println!</Summary>
+    <Description>Please don't use System.err.println to log issues, use a logger like log4j instead</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+</Review>

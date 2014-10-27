@@ -1,0 +1,3 @@
+EMMA: collecting runtime coverage data ...
+foo is not null
+

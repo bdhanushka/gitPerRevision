@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="CD-ARPERERA" name="com.virtusa.gto.pb.exceptions.pBExceptionTest" tests="3" time="0.212" timestamp="2014-10-15T09:41:29">
+  <properties>
+    <property name="java.vendor" value="Sun Microsystems Inc." />
+    <property name="lib.dir" value="C:\Projects\Churn\Defect_Compare_ara/lib" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Server Compiler" />
+    <property name="os.name" value="Windows 7" />
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.6.0_23\jre\lib\resources.jar;C:\Program Files\Java\jdk1.6.0_23\jre\lib\rt.jar;C:\Program Files\Java\jdk1.6.0_23\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.6.0_23\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.6.0_23\jre\lib\jce.jar;C:\Program Files\Java\jdk1.6.0_23\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.6.0_23\jre\lib\modules\jdk.boot.jar;C:\Program Files\Java\jdk1.6.0_23\jre\classes" />
+    <property name="sun.desktop" value="windows" />
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc." />
+    <property name="ant.home" value="C:\Projects\apache-ant-1.8.2\apache-ant-1.8.2" />
+    <property name="java.runtime.version" value="1.6.0_23-b05" />
+    <property name="test.build.dir" value="C:\Projects\Churn\Defect_Compare_ara/build/test-classes" />
+    <property name="user.name" value="arperera" />
+    <property name="junit.html.dir" value="C:\Projects\Churn\Defect_Compare_ara/reports/junit/html" />
+    <property name="build.dir" value="C:\Projects\Churn\Defect_Compare_ara/build" />
+    <property name="user.language" value="en" />
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.6.0_23\jre\bin" />
+    <property name="reports.dir" value="C:\Projects\Churn\Defect_Compare_ara/reports" />
+    <property name="ant.project.default-target" value="build-with-test" />
+    <property name="ant.project.name" value="PhoneBook" />
+    <property name="java.version" value="1.6.0_23" />
+    <property name="user.timezone" value="" />
+    <property name="ant.file.PhoneBook" value="C:\Projects\Churn\Defect_Compare_ara\build.xml" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="test.src.dir" value="test" />
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.6.0_23\jre\lib\endorsed" />
+    <property name="sun.cpu.isalist" value="amd64" />
+    <property name="sun.jnu.encoding" value="Cp1252" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="file.separator" value="\" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="test.lib.dir" value="C:\Projects\Churn\Defect_Compare_ara/testlib" />
+    <property name="junit.report.dir" value="C:\Projects\Churn\Defect_Compare_ara/reports/junit" />
+    <property name="java.class.version" value="50.0" />
+    <property name="user.country" value="US" />
+    <property name="java.home" value="C:\Program Files\Java\jdk1.6.0_23\jre" />
+    <property name="dist.dir" value="C:\Projects\Churn\Defect_Compare_ara/dist" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="ant.file" value="C:\Projects\Churn\Defect_Compare_ara\build.xml" />
+    <property name="os.version" value="6.1" />
+    <property name="path.separator" value=";" />
+    <property name="java.vm.version" value="19.0-b09" />
+    <property name="src.build.dir" value="C:\Projects\Churn\Defect_Compare_ara/build/classes" />
+    <property name="user.variant" value="" />
+    <property name="ant.library.dir" value="C:\Projects\apache-ant-1.8.2\apache-ant-1.8.2\lib" />
+    <property name="ant.file.type.PhoneBook" value="file" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="user.home" value="C:\Users\arperera" />
+    <property name="java.specification.vendor" value="Sun Microsystems Inc." />
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.6.0_23\jre\bin;.;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Microsoft Shared\Microsoft Online Services;C:\Program Files (x86)\Common Files\Microsoft Shared\Microsoft Online Services;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;c:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Projects\apache-ant-1.8.2\apache-ant-1.8.2\bin;C:\Projects\apache-maven-3.1.1-bin\apache-maven-3.1.1\bin;C:\Program Files\nodejs;c:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;c:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\Users\arperera\AppData\Roaming\npm" />
+    <property name="java.vendor.url" value="http://java.sun.com/" />
+    <property name="java.vm.vendor" value="Sun Microsystems Inc." />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="java.class.path" value="C:\Projects\Churn\Defect_Compare_ara\build\classes;C:\Projects\Churn\Defect_Compare_ara\build\test-classes;C:\Projects\Churn\Defect_Compare_ara\dist\phonebook.jar;C:\Projects\Churn\Defect_Compare_ara\testlib\emma\emma.jar;C:\Projects\Churn\Defect_Compare_ara\testlib\emma\emma_ant.jar;C:\Projects\Churn\Defect_Compare_ara\testlib\junit\junit.jar;C:\Projects\apache-ant-1.8.2\apache-ant-1.8.2\lib\ant-launcher.jar;C:\Projects\apache-ant-1.8.2\apache-ant-1.8.2\lib\ant.jar;C:\Projects\apache-ant-1.8.2\apache-ant-1.8.2\lib\ant-junit.jar;C:\Projects\apache-ant-1.8.2\apache-ant-1.8.2\lib\ant-junit4.jar" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.8.2 compiled on December 20 2010" />
+    <property name="project.name" value="PhoneBook" />
+    <property name="emma.html.dir" value="C:\Projects\Churn\Defect_Compare_ara/reports/emma/html" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="ant.file.type" value="file" />
+    <property name="java.vm.specification.version" value="1.0" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="sun.os.patch.level" value="Service Pack 1" />
+    <property name="java.io.tmpdir" value="C:\Users\arperera\AppData\Local\Temp\" />
+    <property name="java.vendor.url.bug" value="http://java.sun.com/cgi-bin/bugreport.cgi" />
+    <property name="os.arch" value="amd64" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.6.0_23\jre\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+    <property name="user.dir" value="C:\Projects\Churn\Defect_Compare_ara" />
+    <property name="emma.dir" value="C:\Projects\Churn\Defect_Compare_ara/reports/emma" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="basedir" value="C:\Projects\Churn\Defect_Compare_ara" />
+    <property name="ant.java.version" value="1.6" />
+    <property name="ant.core.lib" value="C:\Projects\apache-ant-1.8.2\apache-ant-1.8.2\lib\ant.jar" />
+    <property name="jar.name" value="C:\Projects\Churn\Defect_Compare_ara/dist/phonebook.jar" />
+    <property name="file.encoding" value="Cp1252" />
+    <property name="java.specification.version" value="1.6" />
+    <property name="src.dir" value="C:\Projects\Churn\Defect_Compare_ara/src" />
+    <property name="ant.project.invoked-targets" value="build-with-test" />
+    <property name="emma.classes.dir" value="C:\Projects\Churn\Defect_Compare_ara/reports/emma/classes" />
+  </properties>
+  <testcase classname="com.virtusa.gto.pb.exceptions.pBExceptionTest" name="testGetClassName" time="0.075" />
+  <testcase classname="com.virtusa.gto.pb.exceptions.pBExceptionTest" name="testCopyPasteMethod2" time="0.0010" />
+  <testcase classname="com.virtusa.gto.pb.exceptions.pBExceptionTest" name="testComplexMethod2" time="0.0010" />
+  <system-out><![CDATA[EMMA: collecting runtime coverage data ...
+pBException instance created
+pBException instance created
+Number : 1
+Case 1
+Number : 2
+Case 2
+Number : 3
+Case 3
+Number : 4
+Default Case
+pBException instance created
+Number : 0
+Number is 0
+Default Case
+Number : 1
+Number is 1
+Case 1
+Number : 2
+Number is 2
+Case 2
+Number : 3
+Number is 3
+Case 3
+Number : 4
+Number is greater than 3
+Case 4
+Number : 5
+Number is greater than 3
+Case 5
+Number : 6
+Number is greater than 3
+Case 6
+Number : 7
+Number is greater than 3
+Case 7
+Number : 8
+Number is greater than 3
+Default Case
+]]></system-out>
+  <system-err><![CDATA[Dummy error
+Dummy error
+Dummy error
+Dummy error
+Dummy error
+Dummy error
+Dummy error
+Dummy error
+Dummy error
+Dummy error
+Dummy error
+Dummy error
+Dummy error
+]]></system-err>
+</testsuite>

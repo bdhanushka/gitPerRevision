@@ -1,0 +1,258 @@
+<?xml version="1.0"?>
+
+<!-- ============================================================== -->
+<!--    PhoneBook - Insight P3 Test Project                         -->
+<!--    Compiles and creates the JAR file                           -->
+<!-- ============================================================== -->
+
+<project name="PhoneBook" default="build-with-test" basedir="./">
+
+    <!-- build properties -->
+    
+    <!-- Your project name goes here -->
+    <property name="project.name"       value="PhoneBook" />
+    
+    <!-- build directory -->
+    <property name="build.dir"          value="${basedir}/build" />
+    
+    <!--
+       Params for compiling the source code.
+       Don't have to modifiy if you assume the provided folder structure
+    -->
+    <property name="src.build.dir"      value="${build.dir}/classes" />
+    <property name="src.dir"            value="${basedir}/src" />
+    <property name="lib.dir"            value="${basedir}/lib" />
+
+    <!-- Params for compiling the test cases -->
+    <property name="test.build.dir"     value="${build.dir}/test-classes" />
+    <property name="test.src.dir"       value="test" />
+    <property name="test.lib.dir"       value="${basedir}/testlib" />
+    
+    <!-- The directory to which the final JAR file is copied -->
+    <property name="dist.dir"           value="${basedir}/dist" />
+    
+    <!-- The name of the final JAR file -->
+    <property name="jar.name"           value="${dist.dir}/phonebook.jar" />
+    
+    
+    <!-- Reports, Emma and JUnit specific tasks -->
+    <property name="reports.dir"        value="${basedir}/reports" />
+    <property name="emma.dir"           value="${reports.dir}/emma" />
+    <property name="emma.html.dir"      value="${emma.dir}/html" />
+    <property name="emma.classes.dir"   value="${emma.dir}/classes" />
+    <property name="junit.report.dir"   value="${reports.dir}/junit" />
+    <property name="junit.html.dir"     value="${junit.report.dir}/html" />
+    
+    
+    <!-- 
+       If you have a 'lib' folder for your project, the following adds the
+       content in the lib folder to a path element
+       Comment this if you don't have a 'lib' folder
+    -->
+	<!--
+    <path id="src.classpath">
+        <fileset file="${src.lib.dir}">
+            <include name="**/*.jar" />
+        </fileset>
+    </path>
+    -->
+    
+    <!-- 
+       If you have a 'lib' folder for your the test suit, the following adds the
+       content in the lib folder to a path element
+       Comment this if you don't have a 'lib' folder
+    -->
+    <path id="test.classpath">
+        <fileset file="${test.lib.dir}">
+            <include name="**/*.jar" />
+        </fileset>
+    </path>
+    
+    <!-- Deletes the build, reports and dist directories-->
+    <target name="clean">
+        <delete dir="${build.dir}"      quiet="true" />
+        <delete dir="${dist.dir}"       quiet="true" />
+        <delete dir="${reports.dir}"    quiet="true" />
+    </target>
+    
+    <!-- Creates build, reports, dist and other child directories with in them -->
+    <target name="prepare" depends="clean">
+        <mkdir dir="${build.dir}"/>
+        <mkdir dir="${dist.dir}"/>
+        <mkdir dir="${src.build.dir}" />
+    	
+        <mkdir dir="${test.build.dir}" />
+        <mkdir dir="${reports.dir}" />
+        <mkdir dir="${emma.dir}" />
+        <mkdir dir="${emma.html.dir}"/>
+        <mkdir dir="${emma.classes.dir}" />
+        <mkdir dir="${junit.report.dir}" />
+        <mkdir dir="${junit.html.dir}" />
+    </target>
+    
+    <!-- Compile the source code -->
+    <target name="compile" depends="prepare">
+        <echo message="${project.name}: Compiling..." />
+        <javac srcdir="${src.dir}" destdir="${src.build.dir}" debug="on" />
+        <echo message="${project.name}: Finished Compiling!" />
+    </target>
+    
+    <!-- Compile the JUnit test classes -->
+    <target name="test" depends="compile">
+        <javac srcdir="${test.src.dir}" destdir="${test.build.dir}" debug="true">
+            <classpath path="${src.build.dir}" />
+            <classpath refid="test.classpath" />
+        </javac>
+        
+        <copy todir="${test.build.dir}" preservelastmodified="true">
+            <fileset dir="${src.dir}">
+                <include name="**/*.xml"/>
+            </fileset>
+            <fileset dir="${test.src.dir}">
+                <include name="**/*.xml"/>
+            </fileset>
+        </copy>
+        
+        
+        <!-- Begin emma block -->
+
+        <taskdef resource="emma_ant.properties"  classpathref="test.classpath"/>
+
+        
+        <!-- Instrument the .class files. -->
+        <emma enabled="true" >
+            <instr instrpath="${src.build.dir}"
+                destdir="${emma.classes.dir}"
+                metadatafile="${emma.dir}/metadata.emma"
+                merge="true" mode="overwrite">
+            </instr>
+        </emma>
+
+        <!-- End emma block -->     
+        
+        
+        <!-- Run JUnit Test Cases -->
+        <junit printsummary="true" fork="yes">
+            <formatter type="xml"/>
+            
+            <test name="com.virtusa.gto.pb.core.EntryTest" todir="${junit.report.dir}"/>
+            <test name="com.virtusa.gto.pb.core.MainTest" todir="${junit.report.dir}"/>
+        	<test name="com.virtusa.gto.pb.core.PhoneBookTest" todir="${junit.report.dir}"/>
+        	<test name="com.virtusa.gto.pb.core.TestClassTest" todir="${junit.report.dir}"/>
+        	<test name="com.virtusa.gto.pb.exceptions.pBExceptionTest" todir="${junit.report.dir}"/>
+        	<test name="com.virtusa.gto.pb.format.FormatterTest" todir="${junit.report.dir}"/>
+        	<test name="com.virtusa.gto.pb.inputs.InputsTest" todir="${junit.report.dir}"/>
+        	<test name="com.virtusa.gto.pb.io.FileReaderTest" todir="${junit.report.dir}"/>
+        	<test name="com.virtusa.gto.pb.validate.ValidatorTest" todir="${junit.report.dir}"/> 
+            
+            <!-- 
+               Make sure that you add all the referenced classes, Jars to the
+               class path
+            -->
+            <classpath path="${src.build.dir}" />
+            <classpath path="${test.build.dir}" />
+            <classpath refid="test.classpath" />
+        </junit>
+        
+        <!-- Generates HTML reports for the test -->
+
+        <junitreport todir="${junit.report.dir}" >
+            <fileset dir="${junit.report.dir}">
+                <include name="TEST-*.xml"/>
+            </fileset>
+            <report format="frames" todir="${junit.html.dir}"/>
+        </junitreport>
+
+        
+        
+        <!-- Begin emma block -->
+        <!-- Generate Emma reports. -->
+        <emma enabled="true" >
+            <report sourcepath="${src.dir}"
+                depth="method" >
+                <infileset dir="${emma.dir}">
+                    <include name="*.emma" />
+                    <include name="*.ec" />
+                    <include name="*.em" />
+                </infileset>
+                
+                <infileset dir="${basedir}">
+                    <include name="coverage.ec" />
+                    <include name="coverage.em" />
+                </infileset>
+                
+                <xml outfile="${emma.dir}/coverage.xml"/>
+                <html outfile="${emma.html.dir}/index.html" />
+            </report>
+        </emma>
+
+        <!-- End emma block -->
+        
+    </target>
+    
+    
+    <!-- Compiles the classes, runs the tests and creates the final JAR file -->
+    <target name="dist" depends="compile">
+        <!-- 
+           If third party libraries should go in to the final JAR file
+           Unjar them to the src.build.dir before "JAR"ing
+        -->
+        <echo message="${project.name}: Uncompressing library JARs" />
+        <!-- <unjar src="${jdom.jar}" dest="${build.dir}" />-->
+        
+        <echo message="${project.name}: Creating JAR file..." />
+        <jar jarfile="${jar.name}" compress="true">
+            <fileset dir="${src.build.dir}" />
+            <manifest>
+            </manifest>
+        </jar>
+        <echo message="${project.name}: JAR file created" />
+        <echo message="Copying Jar file to ${dist.dir}" />
+        <copy file="${jar.name}" todir="${dist.dir}"/>
+        
+        <echo message="BUILD SUCCESSFUL" />
+    </target>
+
+    
+    <!-- ============================================================== -->
+    <!--    Created by Omega Silva                                      -->
+    <!--    Ant task written for CruiseControl build                    -->
+    <!-- ============================================================== -->
+    <target name="build" depends="compile" description="compiles, create JAR with the libs in a seperate folder" >
+        <!-- Create JAR -->
+        
+        <echo message="${project.name}: Creating JAR file..." />
+        <jar jarfile="${jar.name}" compress="true">
+            <fileset dir="${src.build.dir}" />
+            <manifest>
+            </manifest>
+        </jar>
+        <echo message="${project.name}: JAR file created" />
+        
+        <echo message="${project.name}: Copying Jar file to ${dist.dir}" />
+        <copy file="${jar.name}" todir="${dist.dir}"/>
+        
+        <echo message="${project.name}: Copying the libraries to ${dist.dir}/libs" />
+        
+        <!--
+           If you have third party libraries in the lib folder, uncomment the
+           following <copy></copy> tags
+        -->
+        <!--
+        <mkdir dir="${dist.dir}/libs" />
+        <copy  todir="${dist.dir}/lib">
+            <fileset dir="${basedir}/lib" />
+        </copy>
+        -->
+        
+        <echo message="${project.name}:Build Successful!" />
+    </target> 
+    
+    <!--
+       Compiles the source, builds the JAR file and then run the test suit
+       This is done in such a way since after running Emma tool, the .class files
+       are altered!
+    -->
+    <target name="build-with-test" depends="build,test" />
+
+</project>
