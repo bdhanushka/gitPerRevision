@@ -81,7 +81,5 @@ public class FileReader {
         }
     }
     
-    public void methodDelete(){
-    	System.out.println();
-    }
+    
 }
