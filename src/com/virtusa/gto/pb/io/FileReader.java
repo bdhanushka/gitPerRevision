@@ -81,5 +81,9 @@ public class FileReader {
         }
     }
     
+    public void watebottle01(){
+    	System.out.println();
+    }
+    
     
 }
