@@ -26,5 +26,9 @@ public class FileReaderTest {
         fileReader.copyPasteMethod2(3);
         fileReader.copyPasteMethod2(4);
     }
+    
+    public void waterbottle(){
+    	System.out.println();
+    }
 
 }

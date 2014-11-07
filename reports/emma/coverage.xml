@@ -1,19 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.0.5312 report, generated Fri Nov 07 12:54:21 IST 2014 -->
+<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.0.5312 report, generated Fri Nov 07 15:07:19 IST 2014 -->
 
 <report>
   <stats>
     <packages value="11"/>
     <classes value="23"/>
-    <methods value="102"/>
+    <methods value="103"/>
     <srcfiles value="20"/>
-    <srclines value="663"/>
+    <srclines value="665"/>
   </stats>
   <data>
     <all name="all classes">
       <coverage type="class, %" value="48%  (11/23)"/>
-      <coverage type="method, %" value="48%  (49/102)"/>
-      <coverage type="block, %" value="39%  (801/2050)"/>
-      <coverage type="line, %" value="35%  (233/663)"/>
+      <coverage type="method, %" value="48%  (49/103)"/>
+      <coverage type="block, %" value="39%  (801/2053)"/>
+      <coverage type="line, %" value="35%  (233/665)"/>
 
       <package name="com.virtusa.gto.ara.box">
         <coverage type="class, %" value="0%   (0/2)"/>
@@ -261,9 +261,9 @@
       </package>
       <package name="com.virtusa.gto.pb.io">
         <coverage type="class, %" value="100% (2/2)"/>
-        <coverage type="method, %" value="55%  (6/11)"/>
-        <coverage type="block, %" value="34%  (88/260)"/>
-        <coverage type="line, %" value="35%  (31/88)"/>
+        <coverage type="method, %" value="50%  (6/12)"/>
+        <coverage type="block, %" value="33%  (88/263)"/>
+        <coverage type="line, %" value="34%  (31/90)"/>
 
         <srcfile name="FileWriter.java">
           <coverage type="class, %" value="100% (1/1)"/>
@@ -306,17 +306,22 @@
         </srcfile>
         <srcfile name="FileReader.java">
           <coverage type="class, %" value="100% (1/1)"/>
-          <coverage type="method, %" value="83%  (5/6)"/>
-          <coverage type="block, %" value="91%  (85/93)"/>
-          <coverage type="line, %" value="85%  (29/34)"/>
+          <coverage type="method, %" value="71%  (5/7)"/>
+          <coverage type="block, %" value="89%  (85/96)"/>
+          <coverage type="line, %" value="81%  (29/36)"/>
 
           <class name="FileReader">
             <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="83%  (5/6)"/>
-            <coverage type="block, %" value="91%  (85/93)"/>
-            <coverage type="line, %" value="85%  (29/34)"/>
+            <coverage type="method, %" value="71%  (5/7)"/>
+            <coverage type="block, %" value="89%  (85/96)"/>
+            <coverage type="line, %" value="81%  (29/36)"/>
 
             <method name="dangerousMethod (): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="watebottle01 (): void">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/3)"/>
               <coverage type="line, %" value="0%   (0/2)"/>

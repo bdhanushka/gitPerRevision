@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="1" failures="0" hostname="CD-ARPERERA" name="com.virtusa.gto.pb.core.TestClassTest" tests="2" time="0.198" timestamp="2014-11-07T07:24:11">
+<testsuite errors="1" failures="0" hostname="CD-ARPERERA" name="com.virtusa.gto.pb.core.TestClassTest" tests="2" time="0.206" timestamp="2014-11-07T09:37:09">
   <properties>
     <property name="java.vendor" value="Sun Microsystems Inc." />
     <property name="lib.dir" value="C:\Projects\GIT\Defect_Compare_ara/lib" />
@@ -83,8 +83,8 @@
     <property name="ant.project.invoked-targets" value="build-with-test" />
     <property name="emma.classes.dir" value="C:\Projects\GIT\Defect_Compare_ara/reports/emma/classes" />
   </properties>
-  <testcase classname="com.virtusa.gto.pb.core.TestClassTest" name="testTestMethod" time="0.078" />
-  <testcase classname="com.virtusa.gto.pb.core.TestClassTest" name="testDoInvalidCast" time="0.011">
+  <testcase classname="com.virtusa.gto.pb.core.TestClassTest" name="testTestMethod" time="0.08" />
+  <testcase classname="com.virtusa.gto.pb.core.TestClassTest" name="testDoInvalidCast" time="0.01">
     <error message="com.virtusa.gto.pb.io.FileWriter cannot be cast to com.virtusa.gto.pb.core.Entry" type="java.lang.ClassCastException">java.lang.ClassCastException: com.virtusa.gto.pb.io.FileWriter cannot be cast to com.virtusa.gto.pb.core.Entry
 	at com.virtusa.gto.pb.core.TestClass.doInvalidCast(TestClass.java:21)
 	at com.virtusa.gto.pb.core.TestClassTest.testDoInvalidCast(TestClassTest.java:18)
