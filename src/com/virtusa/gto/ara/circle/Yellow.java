@@ -19,7 +19,7 @@ public class Yellow {
      * [pre].core -> [pre].validate ->
      */
 	
-	public void yellow01(){
+	public void yellow02(){
 		System.out.println();
 		   // Writes to a static filed which is incorrect
 	}
