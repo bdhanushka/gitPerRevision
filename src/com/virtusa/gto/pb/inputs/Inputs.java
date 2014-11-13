@@ -21,15 +21,19 @@ public class Inputs {
     private String mobileNumber;
     private String address;
     private String email;
+	private String city;
 
-    public Inputs(String args[]) {
+    public Inputs(String[] args) {
         this.name = args[0];
         this.homeTpNumber = args[1];
         this.mobileNumber = args[2];
         this.address = args[3];
         this.email = args[4];
+		this.city = args[5];
     }
 
+	
+	
     @Override
     public String toString() {
         return null;
